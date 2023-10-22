@@ -1,12 +1,13 @@
 import React from "react";
 import { View, Text, TextInput, StyleSheet } from "react-native";
-export default function LoginInput({ name, placeholder }) {
+export default function LoginInput({ name, placeholder, type }) {
   return (
     <>
       <Text style={styles.name_input}>{name}</Text>
       <TextInput
         style={styles.input_login}
         placeholder={placeholder}
+        secureTextEntry = {type === "password" ? true : false}
       ></TextInput>
     </>
   );
@@ -24,11 +25,11 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   name_input: {
-    fontSize: 12,
-    fontFamily: "Nunito",
-    fontWeight: "bold",
+    fontSize: 16,
+    color: "#fff",
+    fontWeight: "400",
     alignSelf: "flex-start",
-    marginLeft: "5%",
+    marginLeft: "5.5%",
     marginBottom: 5,
   }
 });
