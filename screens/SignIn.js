@@ -10,6 +10,9 @@ export default function SignIn({ navigation }) {
       headerShown: false,
     });
   }, []);
+  const handleLoginPress = () => {
+    navigation.navigate("Login");
+  }
   return (
     <ImageBackground
       source={require("../assets/images/background.jpg")}
@@ -57,7 +60,7 @@ export default function SignIn({ navigation }) {
           </View>
           <Text style={{ color: "rgba(166, 166, 166, 1)", fontSize: 18, fontWeight:"300",paddingTop:20 }}>
             ¿Ya tienes una cuenta?{" "}
-            <Text style={{ textDecorationLine: "underline", fontWeight:"600"}}>
+            <Text style={{ textDecorationLine: "underline", fontWeight:"600"}} onPress={handleLoginPress}>
               Inicia sesión
             </Text>
           </Text>
