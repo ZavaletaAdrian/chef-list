@@ -1,6 +1,5 @@
-import React, { useState } from "react";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View, ImageBackground } from "react-native";
+import { StyleSheet, View, ImageBackground, Image, Text } from "react-native";
 import LoginInput from "./components/LoginInput";
 export default function App() {
   return (
@@ -9,6 +8,12 @@ export default function App() {
       style={styles.container}
     >
       <View style={styles.container}>
+        <View style={styles.welcome}>
+          <Image source={require("./assets/images/icon.png")} 
+          style={{ width: 170, height: 230 }}
+          />
+          <Text style={styles.welcome_text}>Bienvenido a ChefList!</Text>
+          </View>
         <LoginInput name="Nombre" placeholder="Nombre" type="text" />
         <LoginInput name="Contraseña" placeholder="*********" type="password" />
         <StatusBar style="auto" />
@@ -26,4 +31,17 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     backgroundSize: "cover",
   },
+  welcome: {
+    alignItems: "center",
+    color: "#FFF",
+    paddingTop: 40,
+    paddingBottom: 40,
+    flexDirection: "column",
+  },
+  welcome_text: {
+    fontSize: 24,
+    color: "#FFF",
+    fontWeight: "600",
+    marginBottom: 20,
+  }
 });
