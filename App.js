@@ -1,33 +1,31 @@
+import React, { useCallback } from "react";
 import { StatusBar } from "expo-status-bar";
-import {
-  StyleSheet,
-  Text,
-  View,
-  ImageBackground,
-  AppRegistry,
-} from "react-native";
-import {useFonts} from "expo-font";
-import NunitoFont from "./assets/fonts/NunitoSans.ttf";
+import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import LoginInput from "./components/LoginInput";
-
+import { useFonts } from "expo-font";
+import * as SplashScreen from "expo-splash-screen";
+SplashScreen.preventAutoHideAsync();
 export default function App() {
-  AppRegistry.registerComponent("Nunito", () => NunitoFont);
-  AppRegistry.runApplication(App, {
-    initialProps: {},
-    rootTag: document.getElementById("root"),
+  const [fontsLoaded, fontError] = useFonts({
+    Nunito: require("./assets/fonts/Nunito.ttf"),
   });
-  (async () => {
-    await Font.loadAsync({
-      Nunito: NunitoFont,
-    });
-  })();
+
+  const onLayoutRootView = useCallback(async () => {
+    if (fontsLoaded || fontError) {
+      await SplashScreen.hideAsync();
+    }
+  }, [fontsLoaded, fontError]);
+  if (!fontsLoaded && fontError) {
+    return null;
+  }
+
   return (
     <ImageBackground
       source={require("./assets/images/background.jpg")}
       style={styles.container}
     >
-      <View style={styles.container}>
-        <LoginInput name="Nombre" placeholder="Nombre"/>
+      <View style={styles.container} onLayout={onLayoutRootView}>
+        <LoginInput name="Nombre" placeholder="Nombre" />
         <Text>Open up App.js to start working on your app!</Text>
         <StatusBar style="auto" />
       </View>

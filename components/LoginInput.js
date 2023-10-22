@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
   name_input: {
     fontSize: 12,
     fontFamily: "Nunito",
+    fontWeight: "bold",
     alignSelf: "flex-start",
     marginLeft: "5%",
     marginBottom: 5,
