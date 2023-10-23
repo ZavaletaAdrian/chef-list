@@ -13,17 +13,14 @@ export default function Login({ navigation }) {
   const handleSignInPress = () => {
     navigation.goBack();
   }
+  const handleSubmit = () => {
+    navigation.navigate("Home");
+  };
   return (
     <ImageBackground
       source={require("../assets/images/background.jpg")}
       style={styles.container}
     >
-      <BlurView
-        intensity={8}
-        blurReductionFactor={4}
-        tint="dark"
-        style={styles.blurContainer}
-      >
         <View style={styles.container}>
           <View style={styles.welcome}>
             <Image
@@ -51,7 +48,7 @@ export default function Login({ navigation }) {
               flexDirection: "column",
             }}
           >
-            <CustomButton text="Iniciar Sesión" color="#F28B0C" />
+            <CustomButton text="Iniciar Sesión" color="#F28B0C" action={handleSubmit}/>
           </View>
           <Text style={{ color: "rgba(166, 166, 166, 1)", fontSize: 18, fontWeight:"300",paddingTop:20 }}>
           ¿No tienes una cuenta?{" "}
@@ -61,7 +58,6 @@ export default function Login({ navigation }) {
           </Text>
           <StatusBar style="auto" />
         </View>
-      </BlurView>
     </ImageBackground>
   );
 }
