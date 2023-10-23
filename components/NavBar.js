@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
     padding: 15,
   },
   images: {
-    width: 62,
-    height: 60,
+    width: 56,
+    height: 54,
   },
   list: {
     padding: 14,
