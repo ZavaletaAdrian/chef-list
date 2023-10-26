@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { useFocusEffect } from "@react-navigation/native";
-import { ScrollView, View, Text, BackHandler } from "react-native";
+import { Text } from "react-native";
 import NavBar from "../components/NavBar";
+import disableBackButton from "../util/disableBackButton";
 
 export default function Home({ navigation }) {
   const logoutHandler = () => {
@@ -12,18 +12,7 @@ export default function Home({ navigation }) {
       headerShown: false,
     });
   }, []);
-  useFocusEffect(
-    React.useCallback(() => {
-      const onBackPress = () => {
-          return true;
-        };
-      const subscription = BackHandler.addEventListener(
-        "hardwareBackPress",
-        onBackPress
-      );
-      return () => subscription.remove();
-    }, [])
-  );
+  disableBackButton();
   return (
     <>
       <NavBar />
