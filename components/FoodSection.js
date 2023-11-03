@@ -10,13 +10,12 @@ const FoodSection = ({ data, title }) => {
       <Text style={styles.titleSection}>{title}</Text>
       <ScrollView
         horizontal={true}
-        pagingEnabled={true}
         contentContainerStyle={styles.scrollContainer}
       >
         {data.map((item) => {
           return (
             <View key={item.id} style={styles.itemScroll}>
-              <FoodCard name={item.name}/>
+              <FoodCard cookingTime={item.cookingTime} name={item.name} image={item.image} ingredients={item.ingredients}/>
             </View>
           );
         })}
@@ -35,10 +34,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   itemScroll: {
-    width: 200,
-    height: 200,
-    backgroundColor: "red",
-    margin: 10,
+    marginRight: 20,
   },
   titleSection: {
     textAlign: "center",
