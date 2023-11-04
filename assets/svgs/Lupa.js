@@ -1,6 +1,6 @@
 import * as React from "react"
 import Svg, { Path } from "react-native-svg"
-const Search = (props) => (
+const Lupa = (props) => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"
     width={27}
@@ -14,4 +14,4 @@ const Search = (props) => (
     />
   </Svg>
 )
-export default Search
+export default Lupa

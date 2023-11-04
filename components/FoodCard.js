@@ -30,7 +30,7 @@ export default function FoodCard({
           ⏲️ {cookingTime} minutos{" "}<Text style={{ color: "gray" }}> • {ingredients.length} ingredientes
           </Text>
         </Text>
-        <CustomButton text="Ver receta" color="#F28B0C" action={handleViewRecipe} />
+        <CustomButton text="Detalles 🔎" color="#F28B0C" action={handleViewRecipe} />
       </View>
     </View>
   );
@@ -38,11 +38,11 @@ export default function FoodCard({
 const styles = StyleSheet.create({
   container: {
     shadowColor: "black",
-    shadowOffset: { width: 2, height: 2 },
-    shadowOpacity: 0.5,
+    shadowOffset: { width: 4, height: 4 },
+    shadowOpacity: 1,
     backgroundColor: "white",
     borderRadius: 10,
-    paddingHorizontal: 10,
+    paddingHorizontal: 14,
     paddingVertical: 17,
   },
   imageContainer: {

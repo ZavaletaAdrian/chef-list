@@ -16,7 +16,7 @@ export default function CustomButton({ text, color, action }) {
   return (
     <View>
     <TouchableOpacity style={styles.button_login} onPress={action}>
-      <Text style={{ fontSize: 12, color: "white" }}>{text}</Text>
+      <Text style={{ fontSize: 13, color: "white" }}>{text}</Text>
     </TouchableOpacity>
     </View>
   );

@@ -14,7 +14,7 @@ export default function SignIn({ navigation }) {
     navigation.navigate("Login");
   }
   const handleSubmit = () => {
-    navigation.navigate("Home");
+    navigation.navigate("Main");
   };
   return (
     <ImageBackground
