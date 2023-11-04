@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Uovo Preparato Specialite",
+        "image": "https://raw.githubusercontent.com/KarloPry/chef-list/dev-karlo/assets/images/comida/uovo-preparato.jpeg",
+        "ingredients": [
+            "1 uovo",
+            "1 fetta di pane"
+        ],
+        "cookingTime": 60
+
+    },
+    {
+        "id": 2,
+        "name": "Uovo Preparato Specialite",
+        "image": "https://raw.githubusercontent.com/KarloPry/chef-list/dev-karlo/assets/images/comida/uovo-preparato.jpeg",
+        "ingredients": [
+            "1 uovo",
+            "1 fetta di pane"
+        ],
+        "cookingTime": 60
+
+    }
+]

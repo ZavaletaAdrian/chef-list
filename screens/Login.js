@@ -50,7 +50,7 @@ export default function Login({ navigation }) {
           >
             <CustomButton text="Iniciar Sesión" color="#F28B0C" action={handleSubmit}/>
           </View>
-          <Text style={{ color: "rgba(166, 166, 166, 1)", fontSize: 18, fontWeight:"300",paddingTop:20 }}>
+          <Text style={{ color: "rgba(166, 166, 166, 1)", fontSize: 14, fontWeight:"300",paddingTop:20 }}>
           ¿No tienes una cuenta?{" "}
             <Text style={{ textDecorationLine: "underline", fontWeight:"600"}} onPress={handleSignInPress}>
             Regístrate
