@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import { ScrollView, View, Text } from "react-native";
-import NavBar from "../components/NavBar";
+import { View, Text } from "react-native";
+import NavBar from "../../components/NavBar";
 
-export default function Home({ navigation }) {
+export default function Camera({ navigation }) {
   useEffect(() => {
     navigation.setOptions({
       headerShown: false,
@@ -11,7 +11,7 @@ export default function Home({ navigation }) {
   return (
     <>
       <NavBar />
-      <Text>Home Screen!</Text>
+      <Text>HOLA CAMARA</Text>
     </>
   );
 }

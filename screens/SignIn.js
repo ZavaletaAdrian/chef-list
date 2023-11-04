@@ -14,7 +14,7 @@ export default function SignIn({ navigation }) {
     navigation.navigate("Login");
   }
   const handleSubmit = () => {
-    navigation.navigate("Home");
+    navigation.navigate("Main");
   };
   return (
     <ImageBackground
@@ -55,7 +55,7 @@ export default function SignIn({ navigation }) {
           >
             <CustomButton text="Registrarse" color="#F28B0C" action={handleSubmit}/>
           </View>
-          <Text style={{ color: "rgba(166, 166, 166, 1)", fontSize: 18, fontWeight:"300",paddingTop:20 }}>
+          <Text style={{ color: "rgba(166, 166, 166, 1)", fontSize: 14, fontWeight:"300",paddingTop:20 }}>
             ¿Ya tienes una cuenta?{" "}
             <Text style={{ textDecorationLine: "underline", fontWeight:"600"}} onPress={handleLoginPress}>
               Inicia sesión
