@@ -1,24 +1,74 @@
 [
     {
         "id": 1,
-        "name": "Uovo Preparato Specialite",
+        "category": "Desayuno",
+        "name": "Hot Cakes Clásicos",
         "image": "https://raw.githubusercontent.com/KarloPry/chef-list/dev-karlo/assets/images/comida/uovo-preparato.jpeg",
-        "ingredients": [
-            "1 uovo",
-            "1 fetta di pane"
+        "portion":6,
+        "cookingTime": 21,
+        "cookware": [
+            "Sartén",
+            "Licuadora",
+            "Bol",
+            "Cazo",
+            "Batidora",
+            "Cucharon",
+            "Espatula"
         ],
-        "cookingTime": 60
+        "ingredients": [
+            "3/4 Taza de Leche Evaporada",
+            "1 Huevo",
+            "2 Cucharadas de mantequilla fundida",
+            "1 Cucharadita de esencia de vainilla",
+            "1 Taza de harina para hot cakes",
+            "2 Cucharadas de mantequilla",
+            "1/2 Taza de moras azules",
+            "1/2 Taza de fresas desinfectadas y cortadas en cuartos",
+            "6 Hojas de menta desinfectada",
+            "Leche Condensada"
+        ],
+        "cookingRecipe":[
+            "1.  Mezcla la Leche Evaporada CARNATION® CLAVEL® con el huevo, 2 cucharadas de mantequilla fundida, la esencia de vainilla y la harina para hot cakes.",
+            "2.  Calienta una sartén, agrega un poco de mantequilla y con ayuda de un cucharón vierte un poco de la mezcla para formar los hot cakes; cocina por ambos lados y repite el procedimiento con el resto de la preparación.",
+            "3.  Sirve los hot cakes, decora con moras azules, fresas, las hojas de menta y con un poco de Leche Condensada LA LECHERA® Sirve Fácil. Ofrece."
+        ],
+        "nutritionalInformation": 138
 
     },
     {
         "id": 2,
-        "name": "Uovo Preparato Specialite",
+        "category": "Desayuno",
+        "name": "Hot Cakes Clásicos",
         "image": "https://raw.githubusercontent.com/KarloPry/chef-list/dev-karlo/assets/images/comida/uovo-preparato.jpeg",
-        "ingredients": [
-            "1 uovo",
-            "1 fetta di pane"
+        "portion":6,
+        "cookingTime": 21,
+        "cookware": [
+            "Sartén",
+            "Licuadora",
+            "Bol",
+            "Cazo",
+            "Batidora",
+            "Cucharon",
+            "Espatula"
         ],
-        "cookingTime": 60
+        "ingredients": [
+            "3/4 Taza de Leche Evaporada",
+            "1 Huevo",
+            "2 Cucharadas de mantequilla fundida",
+            "1 Cucharadita de esencia de vainilla",
+            "1 Taza de harina para hot cakes",
+            "2 Cucharadas de mantequilla",
+            "1/2 Taza de moras azules",
+            "1/2 Taza de fresas desinfectadas y cortadas en cuartos",
+            "6 Hojas de menta desinfectada",
+            "Leche Condensada"
+        ],
+        "cookingRecipe":[
+            "1.  Mezcla la Leche Evaporada CARNATION® CLAVEL® con el huevo, 2 cucharadas de mantequilla fundida, la esencia de vainilla y la harina para hot cakes.",
+            "2.  Calienta una sartén, agrega un poco de mantequilla y con ayuda de un cucharón vierte un poco de la mezcla para formar los hot cakes; cocina por ambos lados y repite el procedimiento con el resto de la preparación.",
+            "3.  Sirve los hot cakes, decora con moras azules, fresas, las hojas de menta y con un poco de Leche Condensada LA LECHERA® Sirve Fácil. Ofrece."
+        ],
+        "nutritionalInformation": 138
 
     }
 ]
