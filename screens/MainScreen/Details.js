@@ -6,7 +6,8 @@ import CustomButton from "../../components/CustomButton";
 import BouncyCheckbox from "react-native-bouncy-checkbox";
 
 export default function Details({ route, navigation }) {
-  const recipe = route.params;
+  const recipe = route.params.recipe;
+  // console.log(recipe);
   function handleSaveIngredients() {
     console.log("Saved")
   }
@@ -68,7 +69,7 @@ export default function Details({ route, navigation }) {
           Utensilios
         </Text>
         {recipe.utensils.map((utensil) => (
-          <Text key={utensil}>{utensil}</Text>
+          <Text key={utensil.id}>{utensil.name}</Text>
         ))}
       </LinearGradient>
       <LinearGradient
@@ -82,8 +83,8 @@ export default function Details({ route, navigation }) {
         <View style={{gap: 5}}>
           {recipe.ingredients.map((ingredient) => (
             <BouncyCheckbox
-              key={ingredient.split(" ")[0]}
-              text={ingredient}
+              key={ingredient.id}
+              text={ingredient.name}
               textStyle={{ color: "black" }}
             />
           ))}
@@ -106,7 +107,7 @@ export default function Details({ route, navigation }) {
           Pasos
         </Text>
         {recipe.steps.map((step) => (
-          <Text key={step.split(" ")[0]}>{step}</Text>
+          <Text key={step.id}>{step.description}</Text>
         ))}
       </LinearGradient>
       <View style={styles.kcal}>
