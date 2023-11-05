@@ -14,8 +14,10 @@ export default function Home({navigation}) {
     <>
       <NavBar />
       <ScrollView style={styles.mainContainer}>
-        <FoodSection title="¡Platillos para tu comida! 👨‍🍳" data={DATA} />
+        <FoodSection title="¡Platillos para tu comida! 👨‍🍳" recipes={DATA} />
+        <FoodSection title="Trending 🔥" recipes={DATA} />
       </ScrollView>
+      
     </>
   );
 }
