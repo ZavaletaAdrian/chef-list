@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Text, StyleSheet, View, Image, ImageBackground } from "react-native";
+import { Text, StyleSheet, View, ImageBackground } from "react-native";
 import CustomButton from "./CustomButton";
 //Context
 import MainNavContext from "../context/MainNavContext";
@@ -13,7 +13,7 @@ export default function FoodCard({
   portions,
   utensils,
   steps,
-  kcal
+  kcal,
 }) {
   const navigation = useContext(MainNavContext);
   function handleViewRecipe() {
@@ -27,7 +27,7 @@ export default function FoodCard({
       portions,
       utensils,
       steps,
-      kcal
+      kcal,
     });
   }
   return (

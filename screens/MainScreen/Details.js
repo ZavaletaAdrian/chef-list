@@ -3,10 +3,13 @@ import { ScrollView, View, Text, StyleSheet, Image } from "react-native";
 import GrayVerticalLine from "../../assets/svgs/GrayVerticalLine";
 import { LinearGradient } from "expo-linear-gradient";
 import CustomButton from "../../components/CustomButton";
+import BouncyCheckbox from "react-native-bouncy-checkbox";
 
 export default function Details({ route, navigation }) {
   const recipe = route.params;
-  console.log(recipe);
+  function handleSaveIngredients() {
+    console.log("Saved")
+  }
   return (
     <ScrollView contentContainerStyle={styles.detailsContainer}>
       <View style={styles.foodName}>
@@ -65,7 +68,7 @@ export default function Details({ route, navigation }) {
           Utensilios
         </Text>
         {recipe.utensils.map((utensil) => (
-          <Text>{utensil}</Text>
+          <Text key={utensil}>{utensil}</Text>
         ))}
       </LinearGradient>
       <LinearGradient
@@ -76,14 +79,20 @@ export default function Details({ route, navigation }) {
         <Text style={{ fontSize: 20, fontWeight: "600", paddingVertical: 5 }}>
           Ingredientes
         </Text>
-        {recipe.ingredients.map((ingredient) => (
-          <Text>{ingredient}</Text>
-        ))}
-        <View>
+        <View style={{gap: 5}}>
+          {recipe.ingredients.map((ingredient) => (
+            <BouncyCheckbox
+              key={ingredient.split(" ")[0]}
+              text={ingredient}
+              textStyle={{ color: "black" }}
+            />
+          ))}
+        </View>
+        <View style={{display: "flex", marginTop: 10, marginLeft: 120}}>
           <CustomButton
             text="Preparación"
             color="#F28B0C"
-            // action={handleViewRecipe}
+            action={handleSaveIngredients}
           />
         </View>
       </LinearGradient>
@@ -97,7 +106,7 @@ export default function Details({ route, navigation }) {
           Pasos
         </Text>
         {recipe.steps.map((step) => (
-          <Text>{step}</Text>
+          <Text key={step.split(" ")[0]}>{step}</Text>
         ))}
       </LinearGradient>
       <View style={styles.kcal}>
