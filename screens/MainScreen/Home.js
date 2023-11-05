@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import { ScrollView, StyleSheet } from "react-native";
-import LowerBar from "../../components/LowerBar";
 import NavBar from "../../components/NavBar";
 import FoodSection from "../../components/FoodSection";
 

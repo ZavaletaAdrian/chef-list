@@ -7,8 +7,20 @@
             "1 uovo",
             "1 fetta di pane"
         ],
-        "cookingTime": 60
-
+        "cookingTime": 60,
+        "type": "comida",
+        "portions": 4,
+        "steps": [
+            "1. Prendi l'uovo",
+            "2. Prendi il pane",
+            "3. Prendi il coltello Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+        ],
+        "utensils": [
+            "1. Coltello",
+            "2. Padella",
+            "3. Cucchiaio"
+        ],
+        "kcal": 124
     },
     {
         "id": 2,
@@ -19,6 +31,5 @@
             "1 fetta di pane"
         ],
         "cookingTime": 60
-
     }
 ]

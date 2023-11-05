@@ -1,35 +1,34 @@
 import { StatusBar } from "expo-status-bar";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { StyleSheet, View, ImageBackground, Image, Text } from "react-native";
-import LoginInput from "../components/LoginInput";
-import CustomButton from "../components/CustomButton";
-import { BlurView } from "expo-blur";
-export default function SignIn({ navigation }) {
+import LoginInput from "../../components/LoginInput";
+import CustomButton from "../../components/CustomButton";
+export default function Login({ navigation }) {
   useEffect(() => {
     navigation.setOptions({
       headerShown: false,
     });
   }, []);
-  const handleLoginPress = () => {
-    navigation.navigate("Login");
+  const handleSignInPress = () => {
+    navigation.goBack();
   }
   const handleSubmit = () => {
-    navigation.navigate("Main");
+    navigation.navigate("StackMain");
   };
   return (
     <ImageBackground
-      source={require("../assets/images/background.jpg")}
+      source={require("../../assets/images/background.jpg")}
       style={styles.container}
     >
         <View style={styles.container}>
           <View style={styles.welcome}>
             <Image
-              source={require("../assets/images/icon.png")}
+              source={require("../../assets/images/icon.png")}
               style={styles.welcome_image}
             />
             <Text style={styles.welcome_text}>¡Bienvenido a ChefList!</Text>
           </View>
-          <LoginInput name="Nombre" placeholder="Nombre" type="text" />
+          
           <LoginInput
             name="Correo Electrónico"
             placeholder="ejemplo@email.com"
@@ -37,11 +36,6 @@ export default function SignIn({ navigation }) {
           />
           <LoginInput
             name="Contraseña"
-            placeholder="*********"
-            type="password"
-          />
-          <LoginInput
-            name="Confirmar Contraseña"
             placeholder="*********"
             type="password"
           />
@@ -53,12 +47,12 @@ export default function SignIn({ navigation }) {
               flexDirection: "column",
             }}
           >
-            <CustomButton text="Registrarse" color="#F28B0C" action={handleSubmit}/>
+            <CustomButton text="Iniciar Sesión" color="#F28B0C" action={handleSubmit}/>
           </View>
           <Text style={{ color: "rgba(166, 166, 166, 1)", fontSize: 14, fontWeight:"300",paddingTop:20 }}>
-            ¿Ya tienes una cuenta?{" "}
-            <Text style={{ textDecorationLine: "underline", fontWeight:"600"}} onPress={handleLoginPress}>
-              Inicia sesión
+          ¿No tienes una cuenta?{" "}
+            <Text style={{ textDecorationLine: "underline", fontWeight:"600"}} onPress={handleSignInPress}>
+            Regístrate
             </Text>
           </Text>
           <StatusBar style="auto" />
@@ -93,12 +87,5 @@ const styles = StyleSheet.create({
     width: 140,
     height: 135,
     paddingBottom: 20,
-  },
-  blurContainer: {
-    flex: 1,
-    width: "100%",
-    height: "100%",
-    alignItems: "center",
-    justifyContent: "center",
   },
 });

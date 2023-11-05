@@ -1,35 +1,35 @@
 import { StatusBar } from "expo-status-bar";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { StyleSheet, View, ImageBackground, Image, Text } from "react-native";
-import LoginInput from "../components/LoginInput";
-import CustomButton from "../components/CustomButton";
-import { BlurView } from "expo-blur";
-export default function Login({ navigation }) {
+import LoginInput from "../../components/LoginInput";
+import CustomButton from "../../components/CustomButton";
+
+export default function SignIn({ navigation }) {
   useEffect(() => {
     navigation.setOptions({
       headerShown: false,
     });
   }, []);
-  const handleSignInPress = () => {
-    navigation.goBack();
+  const handleLoginPress = () => {
+    navigation.navigate("Login");
   }
   const handleSubmit = () => {
-    navigation.navigate("Home");
+    navigation.navigate("StackMain");
   };
   return (
     <ImageBackground
-      source={require("../assets/images/background.jpg")}
+      source={require("../../assets/images/background.jpg")}
       style={styles.container}
     >
         <View style={styles.container}>
           <View style={styles.welcome}>
             <Image
-              source={require("../assets/images/icon.png")}
+              source={require("../../assets/images/icon.png")}
               style={styles.welcome_image}
             />
             <Text style={styles.welcome_text}>¡Bienvenido a ChefList!</Text>
           </View>
-          
+          <LoginInput name="Nombre" placeholder="Nombre" type="text" />
           <LoginInput
             name="Correo Electrónico"
             placeholder="ejemplo@email.com"
@@ -37,6 +37,11 @@ export default function Login({ navigation }) {
           />
           <LoginInput
             name="Contraseña"
+            placeholder="*********"
+            type="password"
+          />
+          <LoginInput
+            name="Confirmar Contraseña"
             placeholder="*********"
             type="password"
           />
@@ -48,12 +53,12 @@ export default function Login({ navigation }) {
               flexDirection: "column",
             }}
           >
-            <CustomButton text="Iniciar Sesión" color="#F28B0C" action={handleSubmit}/>
+            <CustomButton text="Registrarse" color="#F28B0C" action={handleSubmit}/>
           </View>
           <Text style={{ color: "rgba(166, 166, 166, 1)", fontSize: 14, fontWeight:"300",paddingTop:20 }}>
-          ¿No tienes una cuenta?{" "}
-            <Text style={{ textDecorationLine: "underline", fontWeight:"600"}} onPress={handleSignInPress}>
-            Regístrate
+            ¿Ya tienes una cuenta?{" "}
+            <Text style={{ textDecorationLine: "underline", fontWeight:"600"}} onPress={handleLoginPress}>
+              Inicia sesión
             </Text>
           </Text>
           <StatusBar style="auto" />
