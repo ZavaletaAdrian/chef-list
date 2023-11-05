@@ -3,7 +3,7 @@
         "id": 1,
         "category": "Desayuno",
         "name": "Hot Cakes Clásicos",
-        "image": "https://raw.githubusercontent.com/KarloPry/chef-list/dev-karlo/assets/images/comida/uovo-preparato.jpeg",
+        "image": "https://github.com/KarloPry/chef-list/blob/525a632c1c1e92f9815ddffbf782139fd3fb88cb/assets/images/comida/hotcakes.png",
         "portion":6,
         "cookingTime": 21,
         "cookware": [
@@ -13,10 +13,10 @@
             "Cazo",
             "Batidora",
             "Cucharon",
-            "Espatula"
+            "Espátula"
         ],
         "ingredients": [
-            "3/4 Taza de Leche Evaporada",
+            "3/4 Taza de leche evaporada",
             "1 Huevo",
             "2 Cucharadas de mantequilla fundida",
             "1 Cucharadita de esencia de vainilla",
@@ -25,12 +25,12 @@
             "1/2 Taza de moras azules",
             "1/2 Taza de fresas desinfectadas y cortadas en cuartos",
             "6 Hojas de menta desinfectada",
-            "Leche Condensada"
+            "Leche condensada"
         ],
         "cookingRecipe":[
-            "1.  Mezcla la Leche Evaporada CARNATION® CLAVEL® con el huevo, 2 cucharadas de mantequilla fundida, la esencia de vainilla y la harina para hot cakes.",
+            "1.  Mezcla la leche evaporada con el huevo, 2 cucharadas de mantequilla fundida, la esencia de vainilla y la harina para hot cakes.",
             "2.  Calienta una sartén, agrega un poco de mantequilla y con ayuda de un cucharón vierte un poco de la mezcla para formar los hot cakes; cocina por ambos lados y repite el procedimiento con el resto de la preparación.",
-            "3.  Sirve los hot cakes, decora con moras azules, fresas, las hojas de menta y con un poco de Leche Condensada LA LECHERA® Sirve Fácil. Ofrece."
+            "3.  Sirve los hot cakes, decora con moras azules, fresas, las hojas de menta y con un poco de leche condensada. Ofrece."
         ],
         "nutritionalInformation": 138
 
@@ -38,37 +38,32 @@
     {
         "id": 2,
         "category": "Desayuno",
-        "name": "Hot Cakes Clásicos",
+        "name": "Pan Francés",
         "image": "https://raw.githubusercontent.com/KarloPry/chef-list/dev-karlo/assets/images/comida/uovo-preparato.jpeg",
-        "portion":6,
-        "cookingTime": 21,
+        "portion":8,
+        "cookingTime": 25,
         "cookware": [
             "Sartén",
-            "Licuadora",
-            "Bol",
             "Cazo",
             "Batidora",
-            "Cucharon",
-            "Espatula"
+            "Espátula"
         ],
         "ingredients": [
-            "3/4 Taza de Leche Evaporada",
+            "3/4 De taza de leche evaporada",
             "1 Huevo",
-            "2 Cucharadas de mantequilla fundida",
-            "1 Cucharadita de esencia de vainilla",
-            "1 Taza de harina para hot cakes",
-            "2 Cucharadas de mantequilla",
-            "1/2 Taza de moras azules",
-            "1/2 Taza de fresas desinfectadas y cortadas en cuartos",
-            "6 Hojas de menta desinfectada",
-            "Leche Condensada"
+            "1 Cucharada de esencia de vainilla",
+            "1/2 Barra de mantequilla (45 g)",
+            "8 Rebanadas de pan de caja blanco sin orillas",
+            "1 Envase de leche condensada",
+            "1 1/2 Taza de frutos rojos",
+            "1 Cucharada de canela molida"
         ],
         "cookingRecipe":[
-            "1.  Mezcla la Leche Evaporada CARNATION® CLAVEL® con el huevo, 2 cucharadas de mantequilla fundida, la esencia de vainilla y la harina para hot cakes.",
-            "2.  Calienta una sartén, agrega un poco de mantequilla y con ayuda de un cucharón vierte un poco de la mezcla para formar los hot cakes; cocina por ambos lados y repite el procedimiento con el resto de la preparación.",
-            "3.  Sirve los hot cakes, decora con moras azules, fresas, las hojas de menta y con un poco de Leche Condensada LA LECHERA® Sirve Fácil. Ofrece."
+            "1.  Mezcla la leche evaporada con el huevo y la vainilla hasta integrar por completo.",
+            "2.  En una sartén caliente, funde un poco de mantequilla, humedece cada rebanada de pan con la mezcla de leche evaporada y cocina por ambos lados hasta que dore ligeramente.",
+            "3.  Corta cada rebanada por la mitad, sirve y decora con un poco de leche condensada, frutos rojos y canela. Ofrece."
         ],
-        "nutritionalInformation": 138
+        "nutritionalInformation": 288
 
     }
 ]
