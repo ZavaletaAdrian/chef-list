@@ -4,7 +4,7 @@
         "category": "Desayuno",
         "name": "Hot Cakes clásicos",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/desayuno/hotcakes.png?raw=true",
-        "portion":6,
+        "portions":6,
         "cookingTime": 21,
         "utensils": [
             "Sartén",
