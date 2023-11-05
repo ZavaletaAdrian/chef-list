@@ -40,7 +40,7 @@
         "category": "Desayuno",
         "name": "Pan francés",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/desayuno/pan-frances.png?raw=true",
-        "portion":8,
+        "portions":8,
         "cookingTime": 25,
         "utensils": [
             "Sartén",
@@ -71,7 +71,7 @@
         "category": "Desayuno",
         "name": "Chilaquiles verdes",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/desayuno/chilaquiles-verdes.png?raw=true",
-        "portion":4,
+        "portions":4,
         "cookingTime": 20,
         "utensils": [
             "Olla",
@@ -105,7 +105,7 @@
         "category": "Desayuno",
         "name": "Huevos rancheros",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/desayuno/huevos-rancheros.png?raw=true",
-        "portion":8,
+        "portions":8,
         "cookingTime": 35,
         "utensils": [
             "Licuadora","Olla","Cuchara de madera","Sartén","Espátula"
@@ -136,7 +136,7 @@
         "category": "Lunch",
         "name": "Tortitas de avena, papa y atún",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/lunch/tortitas.png?raw=true",
-        "portion":4,
+        "portions":4,
         "cookingTime": 36,
         "utensils": [
             "Olla","Cuchara de madera","Sartén","Espátula","Toalla de papel","Cazo"
@@ -174,7 +174,7 @@
         "category": "Lunch",
         "name": "Wrap de pollo BBQ",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/lunch/wrap-pollo.png?raw=true",
-        "portion":4,
+        "portions":4,
         "cookingTime": 17,
         "utensils": [
             "Cazo","Cuchara","Sartén","Cuchara de madera"
@@ -204,7 +204,7 @@
         "category": "Lunch",
         "name": "Cuernito de ensalada rusa",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/lunch/cuernito-atun.png?raw=true",
-        "portion":8,
+        "portions":8,
         "cookingTime": 30,
         "utensils": [
             "Cazo","Cuchara","Envoltura de plástico"
@@ -234,7 +234,7 @@
         "category": "Lunch",
         "name": "Sandwich de vegetales",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/lunch/sandwich-vegetales.png?raw=true",
-        "portion":4,
+        "portions":4,
         "cookingTime": 17,
         "utensils": [
             "Sartén","Cuchara de madera"
@@ -266,7 +266,7 @@
         "category": "Bebida",
         "name": "Angelito de fresa",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/bebida/angelito-fresa.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 12,
         "utensils": [
             "Licuadora","Vaso"
@@ -293,7 +293,7 @@
         "category": "Bebida",
         "name": "Agua de plátano con coco",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/bebida/agua-platano-coco.png?raw=true",
-        "portion":4,
+        "portions":4,
         "cookingTime": 12,
         "utensils": [
             "Licuadora","Vaso"
@@ -320,7 +320,7 @@
         "category": "Bebida",
         "name": "Mango-Coco boba tea",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/bebida/mango-coco.png?raw=true",
-        "portion":2,
+        "portions":2,
         "cookingTime": 15,
         "utensils": [
             "Licuadora","Vaso"
@@ -345,7 +345,7 @@
         "category": "Bebida",
         "name": "Agua de melón",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/bebida/agua-melon.png?raw=true",
-        "portion":6,
+        "portions":6,
         "cookingTime": 3,
         "utensils": [
             "Licuadora","Vaso","Cuchara"
@@ -370,7 +370,7 @@
         "category": "Entrada",
         "name": "Pasta al queso",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/entrada/pasta-queso.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 26,
         "utensils": [
             "Licuadora","Cuchara","Olla","Cazo"
@@ -396,7 +396,7 @@
         "category": "Entrada",
         "name": "Sopa azteca",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/entrada/sopa-azteca.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 28,
         "utensils": [
             "Licuadora","Olla","Cazo"
@@ -429,7 +429,7 @@
         "category": "Entrada",
         "name": "Pasta oriental",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/entrada/pasta-oriental.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 25,
         "utensils": [
             "Sartén","Cuchara de madera","Olla","Cucharon"
@@ -458,7 +458,7 @@
         "category": "Entrada",
         "name": "Sopa de fideo",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/entrada/sopa-fideo.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 25,
         "utensils": [
             "Licuadora","Olla","Cuchara"
@@ -485,7 +485,7 @@
         "category": "Botana",
         "name": "Botana de uvas",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/botana/uvas.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 12,
         "utensils": [
             "Vaso"
@@ -507,7 +507,7 @@
         "category": "Botana",
         "name": "Botana de queso",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/botana/botana-queso.png?raw=true",
-        "portion": 36,
+        "portions": 36,
         "cookingTime": 12,
         "utensils": [
             "Sartén","Cuchara"
@@ -532,7 +532,7 @@
         "category": "Botana",
         "name": "Salsa ahumada picante",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/botana/salsa-ahumada-picante.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 5,
         "utensils": [
             "Olla","Cucharon"
@@ -554,7 +554,7 @@
         "category": "Botana",
         "name": "Dip de cebolla y ajo",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/botana/dip-cebolla-ajo.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 38,
         "utensils": [
             "Licuadora"
@@ -579,7 +579,7 @@
         "category": "Plato fuerte",
         "name": "Pescado empanizado",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/plato-fuerte/pescado-empanizado.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 27,
         "utensils": [
             "Cazo","Cuchara","Sartén","Espátula"
@@ -611,7 +611,7 @@
         "category": "Plato fuerte",
         "name": "Abanico de pollo de rajas con crema",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/plato-fuerte/abanico-pollo-rajas.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 25,
         "utensils": [
             "Tabla de cortar","Espátula","Sartén"
@@ -638,7 +638,7 @@
         "category": "Plato fuerte",
         "name": "Lasaña",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/plato-fuerte/lasania.png?raw=true",
-        "portion": 6,
+        "portions": 6,
         "cookingTime": 42,
         "utensils": [
             "Olla","Bandeja de horno","Microondas","Cuchara","Envoltura de plástico","Horno","Sartén","Espátula"
@@ -678,7 +678,7 @@
         "category": "Plato fuerte",
         "name": "Pechga con crema de chipotle",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/plato-fuerte/pechuga-crema-chipotle.png?raw=true",
-        "portion": 4,
+        "portions": 4,
         "cookingTime": 15,
         "utensils": [
             "Cuchara","Licuadora","Olla"
@@ -708,7 +708,7 @@
         "category": "Postres",
         "name": "Flan napolitano",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/postre/flan-napolitano.png?raw=true",
-        "portion": 12,
+        "portions": 12,
         "cookingTime": 162,
         "utensils": [
             "Licuadora","Papel aluminio","Molde desmontable","Bandeja de horno","Horno","Refrigerador"
@@ -735,7 +735,7 @@
         "category": "Postres",
         "name": "Brownies",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/postre/brownies.png?raw=true",
-        "portion": 6,
+        "portions": 6,
         "cookingTime": 55,
         "utensils": [
             "Cazo","Batidora","Horno","Bandeja de horno"
@@ -764,7 +764,7 @@
         "category": "Postres",
         "name": "Gelatina de mazápan",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/postre/gelatina-mazapan.png?raw=true",
-        "portion": 12,
+        "portions": 12,
         "cookingTime": 128,
         "utensils": [
             "Licuadora","Refrigerador","Cazo"
@@ -791,7 +791,7 @@
         "category": "Postres",
         "name": "Gelatina de mosaicos",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/postre/gelatina-mosaico.png?raw=true",
-        "portion": 12,
+        "portions": 12,
         "cookingTime": 192,
         "utensils": [
             "Olla","Refractario","Licuadora","Vaso medidor","Refrigerador"
