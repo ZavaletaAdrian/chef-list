@@ -1,9 +1,8 @@
 import { StatusBar } from "expo-status-bar";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { StyleSheet, View, ImageBackground, Image, Text } from "react-native";
-import LoginInput from "../components/LoginInput";
-import CustomButton from "../components/CustomButton";
-import { BlurView } from "expo-blur";
+import LoginInput from "../../components/LoginInput";
+import CustomButton from "../../components/CustomButton";
 export default function Login({ navigation }) {
   useEffect(() => {
     navigation.setOptions({
@@ -14,17 +13,17 @@ export default function Login({ navigation }) {
     navigation.goBack();
   }
   const handleSubmit = () => {
-    navigation.navigate("Home");
+    navigation.navigate("StackMain");
   };
   return (
     <ImageBackground
-      source={require("../assets/images/background.jpg")}
+      source={require("../../assets/images/background.jpg")}
       style={styles.container}
     >
         <View style={styles.container}>
           <View style={styles.welcome}>
             <Image
-              source={require("../assets/images/icon.png")}
+              source={require("../../assets/images/icon.png")}
               style={styles.welcome_image}
             />
             <Text style={styles.welcome_text}>¡Bienvenido a ChefList!</Text>
@@ -88,12 +87,5 @@ const styles = StyleSheet.create({
     width: 140,
     height: 135,
     paddingBottom: 20,
-  },
-  blurContainer: {
-    flex: 1,
-    width: "100%",
-    height: "100%",
-    alignItems: "center",
-    justifyContent: "center",
   },
 });

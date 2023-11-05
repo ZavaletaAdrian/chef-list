@@ -1,6 +1,8 @@
-import React from "react";
-import { Text, StyleSheet, View, Image, ImageBackground } from "react-native";
+import React, { useContext } from "react";
+import { Text, StyleSheet, View, ImageBackground } from "react-native";
 import CustomButton from "./CustomButton";
+//Context
+import MainNavContext from "../context/MainNavContext";
 
 export default function FoodCard({
   name,
@@ -8,11 +10,26 @@ export default function FoodCard({
   ingredients,
   cookingTime,
   type,
-}) 
-{
-  function handleViewRecipe(){
-    console.log("Ver receta")
-  };
+  portions,
+  utensils,
+  steps,
+  kcal,
+}) {
+  const navigation = useContext(MainNavContext);
+  function handleViewRecipe() {
+    console.log("Ver receta");
+    navigation.navigate("Details", {
+      name,
+      image,
+      ingredients,
+      cookingTime,
+      type,
+      portions,
+      utensils,
+      steps,
+      kcal,
+    });
+  }
   return (
     <View style={styles.container}>
       <ImageBackground
@@ -27,10 +44,17 @@ export default function FoodCard({
       </ImageBackground>
       <View style={styles.infoFood}>
         <Text style={{ fontSize: 10 }}>
-          ⏲️ {cookingTime} minutos{" "}<Text style={{ color: "gray" }}> • {ingredients.length} ingredientes
+          ⏲️ {cookingTime} minutos{" "}
+          <Text style={{ color: "gray" }}>
+            {" "}
+            • {ingredients.length} ingredientes
           </Text>
         </Text>
-        <CustomButton text="Detalles 🔎" color="#F28B0C" action={handleViewRecipe} />
+        <CustomButton
+          text="Detalles 🔎"
+          color="#F28B0C"
+          action={handleViewRecipe}
+        />
       </View>
     </View>
   );
@@ -69,5 +93,5 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-  }
+  },
 });

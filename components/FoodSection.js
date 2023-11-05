@@ -15,7 +15,17 @@ const FoodSection = ({ data, title }) => {
         {data.map((item) => {
           return (
             <View key={item.id} style={styles.itemScroll}>
-              <FoodCard cookingTime={item.cookingTime} name={item.name} image={item.image} ingredients={item.ingredients}/>
+              <FoodCard
+                name={item.name}
+                image={item.image}
+                ingredients={item.ingredients}
+                cookingTime={item.cookingTime}
+                type={item.type}
+                portions={item.portions}
+                steps={item.steps}
+                utensils={item.utensils}
+                kcal={item.kcal}
+              />
             </View>
           );
         })}
