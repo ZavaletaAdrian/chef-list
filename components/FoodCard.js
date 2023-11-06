@@ -4,50 +4,32 @@ import CustomButton from "./CustomButton";
 //Context
 import MainNavContext from "../context/MainNavContext";
 
-export default function FoodCard({
-  name,
-  image,
-  ingredients,
-  cookingTime,
-  type,
-  portions,
-  utensils,
-  steps,
-  kcal,
-}) {
+export default function FoodCard({ recipe }) {
   const navigation = useContext(MainNavContext);
   function handleViewRecipe() {
     console.log("Ver receta");
     navigation.navigate("Details", {
-      name,
-      image,
-      ingredients,
-      cookingTime,
-      type,
-      portions,
-      utensils,
-      steps,
-      kcal,
+      recipe,
     });
   }
   return (
     <View style={styles.container}>
       <ImageBackground
         source={{
-          uri: image,
+          uri: recipe.image,
         }}
         style={styles.imageContainer}
       >
         <View style={styles.textContainer}>
-          <Text style={styles.textImage}>{name}</Text>
+          <Text style={styles.textImage}>{recipe.name}</Text>
         </View>
       </ImageBackground>
       <View style={styles.infoFood}>
         <Text style={{ fontSize: 10 }}>
-          ⏲️ {cookingTime} minutos{" "}
+          ⏲️ {recipe.cookingTime} minutos{" "}
           <Text style={{ color: "gray" }}>
             {" "}
-            • {ingredients.length} ingredientes
+            • {recipe.ingredients.length} ingredientes
           </Text>
         </Text>
         <CustomButton
@@ -68,6 +50,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     paddingHorizontal: 14,
     paddingVertical: 17,
+    alignItems: "center",
   },
   imageContainer: {
     width: 250,
@@ -93,5 +76,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    gap: 10,
   },
 });

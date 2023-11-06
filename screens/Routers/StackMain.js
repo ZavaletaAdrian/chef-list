@@ -7,6 +7,7 @@ import List from "../MainScreen/List";
 import Main from "./Main";
 //Context
 import MainNavContext from "../../context/MainNavContext";
+import SearchResults from "../MainScreen/SearchResults";
 export default function StackMain({ navigation }) {
   const Stack = createNativeStackNavigator();
   const contextValue = navigation;
@@ -21,6 +22,7 @@ export default function StackMain({ navigation }) {
         <Stack.Screen name="Main" component={Main} />
         <Stack.Screen name="Details" component={Details} options={{title: "Receta"}} />
         <Stack.Screen name="List" component={List} />
+        <Stack.Screen name="SearchResults" component={SearchResults} options={{title: "Resultados"}}/>
       </Stack.Navigator>
     </MainNavContext.Provider>
   );

@@ -4,262 +4,744 @@
         "category": "Desayuno",
         "name": "Hot Cakes clásicos",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/desayuno/hotcakes.png?raw=true",
-        "portions":6,
+        "portions": 6,
         "cookingTime": 21,
         "utensils": [
-            "Sartén",
-            "Licuadora",
-            "Bol",
-            "Cazo",
-            "Batidora",
-            "Cucharon",
-            "Espátula"
+            {
+                "id": 1,
+                "name": "Sartén"
+            },
+            {
+                "id": 2,
+                "name": "Licuadora"
+            },
+            {
+                "id": 3,
+                "name": "Bol"
+            },
+            {
+                "id": 4,
+                "name": "Cazo"
+            },
+            {
+                "id": 5,
+                "name": "Batidora"
+            },
+            {
+                "id": 6,
+                "name": "Cucharon"
+            },
+            {
+                "id": 7,
+                "name": "Espátula"
+            }
         ],
         "ingredients": [
-            "3/4 Taza de leche evaporada",
-            "1 Huevo",
-            "2 Cucharadas de mantequilla fundida",
-            "1 Cucharadita de esencia de vainilla",
-            "1 Taza de harina para hot cakes",
-            "2 Cucharadas de mantequilla",
-            "1/2 Taza de moras azules",
-            "1/2 Taza de fresas desinfectadas y cortadas en cuartos",
-            "6 Hojas de menta desinfectada",
-            "Leche condensada"
+            {
+                "id": 1,
+                "name": "3/4 Taza de leche evaporada"
+            },
+            {
+                "id": 2,
+                "name": "1 Huevo"
+            },
+            {
+                "id": 3,
+                "name": "2 Cucharadas de mantequilla fundida"
+            },
+            {
+                "id": 4,
+                "name": "1 Cucharadita de esencia de vainilla"
+            },
+            {
+                "id": 5,
+                "name": "1 Taza de harina para hot cakes"
+            },
+            {
+                "id": 6,
+                "name": "2 Cucharadas de mantequilla"
+            },
+            {
+                "id": 7,
+                "name": "1/2 Taza de moras azules"
+            },
+            {
+                "id": 8,
+                "name": "1/2 Taza de fresas desinfectadas y cortadas en cuartos"
+            },
+            {
+                "id": 9,
+                "name": "6 Hojas de menta desinfectada"
+            },
+            {
+                "id": 10,
+                "name": "Leche condensada"
+            }
         ],
-        "steps":[
-            "1.  Mezcla la leche evaporada con el huevo, 2 cucharadas de mantequilla fundida, la esencia de vainilla y la harina para hot cakes.",
-            "2.  Calienta una sartén, agrega un poco de mantequilla y con ayuda de un cucharón vierte un poco de la mezcla para formar los hot cakes; cocina por ambos lados y repite el procedimiento con el resto de la preparación.",
-            "3.  Sirve los hot cakes, decora con moras azules, fresas, las hojas de menta y con un poco de leche condensada. Ofrece."
+        "steps": [
+            {
+                "id": 1,
+                "description": "Mezcla la leche evaporada con el huevo, 2 cucharadas de mantequilla fundida, la esencia de vainilla y la harina para hot cakes."
+            },
+            {
+                "id": 2,
+                "description": "Calienta una sartén, agrega un poco de mantequilla y con ayuda de un cucharón vierte un poco de la mezcla para formar los hot cakes; cocina por ambos lados y repite el procedimiento con el resto de la preparación."
+            },
+            {
+                "id": 3,
+                "description": "Sirve los hot cakes, decora con moras azules, fresas, las hojas de menta y con un poco de leche condensada. Ofrece."
+            }
         ],
         "kcal": 138
-
     },
     {
         "id": 2,
         "category": "Desayuno",
         "name": "Pan francés",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/desayuno/pan-frances.png?raw=true",
+<<<<<<< HEAD
         "portions":8,
+=======
+        "portions": 8,
+>>>>>>> origin
         "cookingTime": 25,
         "utensils": [
-            "Sartén",
-            "Cazo",
-            "Batidora",
-            "Espátula"
+            {
+                "id": 11,
+                "name": "Sartén"
+            },
+            {
+                "id": 12,
+                "name": "Cazo"
+            },
+            {
+                "id": 13,
+                "name": "Batidora"
+            },
+            {
+                "id": 14,
+                "name": "Espátula"
+            }
         ],
         "ingredients": [
-            "3/4 De taza de leche evaporada",
-            "1 Huevo",
-            "1 Cucharada de esencia de vainilla",
-            "1/2 Barra de mantequilla (45 g)",
-            "8 Rebanadas de pan de caja blanco sin orillas",
-            "1 Envase de leche condensada",
-            "1 1/2 Taza de frutos rojos",
-            "1 Cucharada de canela molida"
+            {
+                "id": 11,
+                "name": "3/4 De taza de leche evaporada"
+            },
+            {
+                "id": 12,
+                "name": "1 Huevo"
+            },
+            {
+                "id": 13,
+                "name": "1 Cucharada de esencia de vainilla"
+            },
+            {
+                "id": 14,
+                "name": "1/2 Barra de mantequilla (45 g)"
+            },
+            {
+                "id": 15,
+                "name": "8 Rebanadas de pan de caja blanco sin orillas"
+            },
+            {
+                "id": 16,
+                "name": "1 Envase de leche condensada"
+            },
+            {
+                "id": 17,
+                "name": "1 1/2 Taza de frutos rojos"
+            },
+            {
+                "id": 18,
+                "name": "1 Cucharada de canela molida"
+            }
         ],
-        "steps":[
-            "1.  Mezcla la leche evaporada con el huevo y la vainilla hasta integrar por completo.",
-            "2.  En una sartén caliente, funde un poco de mantequilla, humedece cada rebanada de pan con la mezcla de leche evaporada y cocina por ambos lados hasta que dore ligeramente.",
-            "3.  Corta cada rebanada por la mitad, sirve y decora con un poco de leche condensada, frutos rojos y canela. Ofrece."
+        "steps": [
+            {
+                "id": 11,
+                "description": "Mezcla la leche evaporada con el huevo y la vainilla hasta integrar por completo."
+            },
+            {
+                "id": 12,
+                "description": "En una sartén caliente, funde un poco de mantequilla, humedece cada rebanada de pan con la mezcla de leche evaporada y cocina por ambos lados hasta que dore ligeramente."
+            },
+            {
+                "id": 13,
+                "description": "Corta cada rebanada por la mitad, sirve y decora con un poco de leche condensada, frutos rojos y canela. Ofrece."
+            }
         ],
         "kcal": 288
-
     },
     {
         "id": 3,
         "category": "Desayuno",
         "name": "Chilaquiles verdes",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/desayuno/chilaquiles-verdes.png?raw=true",
+<<<<<<< HEAD
         "portions":4,
+=======
+        "portions": 4,
+>>>>>>> origin
         "cookingTime": 20,
         "utensils": [
-            "Olla",
-            "Cuchara",
-            "Cuchara de madera"
+            {
+                "id": 21,
+                "name": "Olla"
+            },
+            {
+                "id": 22,
+                "name": "Cuchara"
+            },
+            {
+                "id": 23,
+                "name": "Cuchara de madera"
+            }
         ],
         "ingredients": [
-            "600 Gramos de tomates verdes cocidos",
-            "1/4 De pieza de cebolla mediana, cocida",
-            "2 Dientes de ajo cocidos",
-            "2 Chiles serrano cocidos",
-            "1 1/2 Tazas de agua",
-            "5 Ramas de cilantro desinfectado",
-            "1 1/2 Cucharadas de consomé de pollo en polvo",
-            "1 Cucharada de aceite vegetal",
-            "1 Bolsa de totopos (350 g)",
-            "1 Pechuga de pollo cocida y deshebrada (500 g)",
-            "1 Envase de media crema refrigerada (190 g)",
-            "200 Gramos de queso fresco desmoronado"
+            {
+                "id": 21,
+                "name": "600 Gramos de tomates verdes cocidos"
+            },
+            {
+                "id": 22,
+                "name": "1/4 De pieza de cebolla mediana, cocida"
+            },
+            {
+                "id": 23,
+                "name": "2 Dientes de ajo cocidos"
+            },
+            {
+                "id": 24,
+                "name": "2 Chiles serrano cocidos"
+            },
+            {
+                "id": 25,
+                "name": "1 1/2 Tazas de agua"
+            },
+            {
+                "id": 26,
+                "name": "5 Ramas de cilantro desinfectado"
+            },
+            {
+                "id": 27,
+                "name": "1 1/2 Cucharadas de consomé de pollo en polvo"
+            },
+            {
+                "id": 28,
+                "name": "1 Cucharada de aceite vegetal"
+            },
+            {
+                "id": 29,
+                "name": "1 Bolsa de totopos (350 g)"
+            },
+            {
+                "id": 30,
+                "name": "1 Pechuga de pollo cocida y deshebrada (500 g)"
+            },
+            {
+                "id": 31,
+                "name": "1 Envase de media crema refrigerada (190 g)"
+            },
+            {
+                "id": 32,
+                "name": "200 Gramos de queso fresco desmoronado"
+            }
         ],
-        "steps":[
-            "1.  Para la salsa, licúa los tomates con la cebolla, los ajos, los chiles, el agua, el cilantro y el consomé de pollo. Calienta el aceite, vierte lo que licuaste y cocina hasta que hierva moviendo ocasionalmente.",
-            "2.  Agrega los totopos a la salsa y mezcla suavemente para que absorban un poco de salsa.",
-            "3.  Sirve los chilaquiles y baña con un poco más de salsa. Añade el pollo, la media crema y el queso. Ofrece."
+        "steps": [
+            {
+                "id": 21,
+                "description": "Para la salsa, licúa los tomates con la cebolla, los ajos, los chiles, el agua, el cilantro y el consomé de pollo. Calienta el aceite, vierte lo que licuaste y cocina hasta que hierva moviendo ocasionalmente."
+            },
+            {
+                "id": 22,
+                "description": "Agrega los totopos a la salsa y mezcla suavemente para que absorban un poco de salsa."
+            },
+            {
+                "id": 23,
+                "description": "Sirve los chilaquiles y baña con un poco más de salsa. Añade el pollo, la media crema y el queso. Ofrece."
+            }
         ],
         "kcal": 771
-
     },
     {
         "id": 4,
         "category": "Desayuno",
         "name": "Huevos rancheros",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/desayuno/huevos-rancheros.png?raw=true",
+<<<<<<< HEAD
         "portions":8,
+=======
+        "portions": 8,
+>>>>>>> origin
         "cookingTime": 35,
         "utensils": [
-            "Licuadora","Olla","Cuchara de madera","Sartén","Espátula"
+            {
+                "id": 41,
+                "name": "Licuadora"
+            },
+            {
+                "id": 42,
+                "name": "Olla"
+            },
+            {
+                "id": 43,
+                "name": "Cuchara de madera"
+            },
+            {
+                "id": 44,
+                "name": "Sartén"
+            },
+            {
+                "id": 45,
+                "name": "Espátula"
+            }
         ],
         "ingredients": [
-            "6 Jitomates cocidos",
-            "1 Chile serrano cocido",
-            "1/4 De pieza de cebolla cocida",
-            "1 Diente de ajo cocido",
-            "2 Cubos de caldo de pollo",
-            "1 Taza de agua",
-            "Aceite de maíz para freír",
-            "8 Tortillas de maíz",
-            "8 Huevos estrellados y fritos",
-            "1 paquete de queso panela cortado en rebanadas y asado (100 g)",
-            "5 Ramitas de cilantro desinfectado y picado finamente"
+            {
+                "id": 41,
+                "name": "6 Jitomates cocidos"
+            },
+            {
+                "id": 42,
+                "name": "1 Chile serrano cocido"
+            },
+            {
+                "id": 43,
+                "name": "1/4 De pieza de cebolla cocida"
+            },
+            {
+                "id": 44,
+                "name": "1 Diente de ajo cocido"
+            },
+            {
+                "id": 45,
+                "name": "2 Cubos de caldo de pollo"
+            },
+            {
+                "id": 46,
+                "name": "1 Taza de agua"
+            },
+            {
+                "id": 47,
+                "name": "Aceite de maíz para freír"
+            },
+            {
+                "id": 48,
+                "name": "8 Tortillas de maíz"
+            },
+            {
+                "id": 49,
+                "name": "8 Huevos estrellados y fritos"
+            },
+            {
+                "id": 50,
+                "name": "1 paquete de queso panela cortado en rebanadas y asado (100 g)"
+            },
+            {
+                "id": 51,
+                "name": "5 Ramitas de cilantro desinfectado y picado finamente"
+            }
         ],
-        "steps":[
-            "1.  Licúa los jitomates, el chile, la cebolla, el ajo, el caldo de pollo y el agua. Calienta 1/2 cucharada de aceite y vierte lo que licuaste, cocina hasta que espese ligeramente moviendo ocasionalmente.",
-            "2.  Coloca un poco de salsa sobre un plato, sobre ella un par de tortillas, agrega un par de huevos y baña con un poco más de salsa.",
-            "3.  Acompaña con rebanadas de queso y decora con el cilantro; ofrece."
+        "steps": [
+            {
+                "id": 41,
+                "description": "Licúa los jitomates, el chile, la cebolla, el ajo, el caldo de pollo y el agua. Calienta 1/2 cucharada de aceite y vierte lo que licuaste, cocina hasta que espese ligeramente moviendo ocasionalmente."
+            },
+            {
+                "id": 42,
+                "description": "Coloca un poco de salsa sobre un plato, sobre ella un par de tortillas, agrega un par de huevos y baña con un poco más de salsa."
+            },
+            {
+                "id": 43,
+                "description": "Acompaña con rebanadas de queso y decora con el cilantro; ofrece."
+            }
         ],
         "kcal": 224
-
     },
     {
         "id": 5,
         "category": "Lunch",
         "name": "Tortitas de avena, papa y atún",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/lunch/tortitas.png?raw=true",
+<<<<<<< HEAD
         "portions":4,
+=======
+        "portions": 4,
+>>>>>>> origin
         "cookingTime": 36,
         "utensils": [
-            "Olla","Cuchara de madera","Sartén","Espátula","Toalla de papel","Cazo"
+            {
+                "id": 51,
+                "name": "Olla"
+            },
+            {
+                "id": 52,
+                "name": "Cuchara de madera"
+            },
+            {
+                "id": 53,
+                "name": "Sartén"
+            },
+            {
+                "id": 54,
+                "name": "Espátula"
+            },
+            {
+                "id": 55,
+                "name": "Toalla de papel"
+            },
+            {
+                "id": 56,
+                "name": "Cazo"
+            }
         ],
         "ingredients": [
-            "1 Lata de leche evaporada (1 1/2 tazas)",
-            "1/2 Cucharadita de Consomé de pollo en polvo",
-            "2 Cucharadas de Mantequilla",
-            "1/2 Paquete de Hojuelas de puré de papa (80 g)",
-            "1 Taza de Avena",
-            "2 Latas de Atún en agua escurridas (170 g c/u)",
-            "1/4 Cebolla picada finamente",
-            "5 Ramitas de Perejil fresco desinfectado y picado finamente",
-            "1 Huevo",
-            "Aceite de maíz para freír",
-            "4 Tazas de Berro desinfectado",
-            "2 Jitomates cortados en rodajas",
-            "1 Pepino sin semillas y cortado en medias lunas",
-            "1/4 Cebolla morada cortada en aros",
-            "4 Limones (su jugo)",
-            "2 Cucharadas de Aceite de oliva",
-            "1 Cucharadita de Pimienta negra molida",
-            "1 Cucharadita de Sal"
+            {
+                "id": 51,
+                "name": "1 Lata de leche evaporada (1 1/2 tazas)"
+            },
+            {
+                "id": 52,
+                "name": "1/2 Cucharadita de Consomé de pollo en polvo"
+            },
+            {
+                "id": 53,
+                "name": "2 Cucharadas de Mantequilla"
+            },
+            {
+                "id": 54,
+                "name": "1/2 Paquete de Hojuelas de puré de papa (80 g)"
+            },
+            {
+                "id": 55,
+                "name": "1 Taza de Avena"
+            },
+            {
+                "id": 56,
+                "name": "2 Latas de Atún en agua escurridas (170 g c/u)"
+            },
+            {
+                "id": 57,
+                "name": "1/4 Cebolla picada finamente"
+            },
+            {
+                "id": 58,
+                "name": "5 Ramitas de Perejil fresco desinfectado y picado finamente"
+            },
+            {
+                "id": 59,
+                "name": "1 Huevo"
+            },
+            {
+                "id": 60,
+                "name": "Aceite de maíz para freír"
+            },
+            {
+                "id": 61,
+                "name": "4 Tazas de Berro desinfectado"
+            },
+            {
+                "id": 62,
+                "name": "2 Jitomates cortados en rodajas"
+            },
+            {
+                "id": 63,
+                "name": "1 Pepino sin semillas y cortado en medias lunas"
+            },
+            {
+                "id": 64,
+                "name": "1/4 Cebolla morada cortada en aros"
+            },
+            {
+                "id": 65,
+                "name": "4 Limones (su jugo)"
+            },
+            {
+                "id": 66,
+                "name": "2 Cucharadas de Aceite de oliva"
+            },
+            {
+                "id": 67,
+                "name": "1 Cucharadita de Pimienta negra molida"
+            },
+            {
+                "id": 68,
+                "name": "1 Cucharadita de Sal"
+            }
         ],
-        "steps":[
-            "1.  Calienta la leche evaporada con el consomé de pollo y la mantequilla, cuando suelte el hervor añade las hojuelas de papa, mezcla hasta integrar y cocina hasta que espese; deja enfriar.",
-            "2.  Añade la avena, el atún, la cebolla, el perejil, el huevo y mueve hasta integrar por completo; forma las tortitas con tus manos. Calienta el aceite y fríelas por ambos lados; colócalas sobre papel absorbente para retirar el exceso de grasa.",
-            "3.  En una ensaladera, mezcla los berros con las rebanadas de jitomate, el pepino, los aros de cebolla morada, el jugo de limón, el aceite de oliva, la pimienta y la sal. Ofrece las tortitas con la ensalada."
+        "steps": [
+            {
+                "id": 51,
+                "description": "Calienta la leche evaporada con el consomé de pollo y la mantequilla, cuando suelte el hervor añade las hojuelas de papa, mezcla hasta integrar y cocina hasta que espese; deja enfriar."
+            },
+            {
+                "id": 52,
+                "description": "Añade la avena, el atún, la cebolla, el perejil, el huevo y mueve hasta integrar por completo; forma las tortitas con tus manos. Calienta el aceite y fríelas por ambos lados; colócalas sobre papel absorbente para retirar el exceso de grasa."
+            },
+            {
+                "id": 53,
+                "description": "En una ensaladera, mezcla los berros con las rebanadas de jitomate, el pepino, los aros de cebolla morada, el jugo de limón, el aceite de oliva, la pimienta y la sal. Ofrece las tortitas con la ensalada."
+            }
         ],
         "kcal": 644
-
     },
     {
         "id": 6,
         "category": "Lunch",
         "name": "Wrap de pollo BBQ",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/lunch/wrap-pollo.png?raw=true",
+<<<<<<< HEAD
         "portions":4,
+=======
+        "portions": 4,
+>>>>>>> origin
         "cookingTime": 17,
         "utensils": [
-            "Cazo","Cuchara","Sartén","Cuchara de madera"
+            {
+                "id": 71,
+                "name": "Cazo"
+            },
+            {
+                "id": 72,
+                "name": "Cuchara"
+            },
+            {
+                "id": 73,
+                "name": "Sartén"
+            },
+            {
+                "id": 74,
+                "name": "Cuchara de madera"
+            }
         ],
         "ingredients": [
-            "1/4 Taza de Jugo MAGGI® BBQ",
-            "4 Cucharadas de cátsup",
-            "1 Pechuga de pollo sin hueso, sin piel y cortada en tiras (320 g)",
-            "2 Cucharadas de aceite de maíz",
-            "1 Pimiento morrón rojo cortado en tiras",
-            "1 1/2 Calabacitas cortadas en tiras",
-            "1 Cucharadita de sal con ajo en polvo",
-            "4 Tortillas de harina para burritos calientes",
-            "4 Hojas de lechuga italiana desinfectadas",
-            "2 Cucharadas de Jugo MAGGI® BBQ"
+            {
+                "id": 71,
+                "name": "1/4 Taza de Jugo MAGGI® BBQ"
+            },
+            {
+                "id": 72,
+                "name": "4 Cucharadas de cátsup"
+            },
+            {
+                "id": 73,
+                "name": "1 Pechuga de pollo sin hueso, sin piel y cortada en tiras (320 g)"
+            },
+            {
+                "id": 74,
+                "name": "2 Cucharadas de aceite de maíz"
+            },
+            {
+                "id": 75,
+                "name": "1 Pimiento morrón rojo cortado en tiras"
+            },
+            {
+                "id": 76,
+                "name": "1 1/2 Calabacitas cortadas en tiras"
+            },
+            {
+                "id": 77,
+                "name": "1 Cucharadita de sal con ajo en polvo"
+            },
+            {
+                "id": 78,
+                "name": "4 Tortillas de harina para burritos calientes"
+            },
+            {
+                "id": 79,
+                "name": "4 Hojas de lechuga italiana desinfectadas"
+            },
+            {
+                "id": 80,
+                "name": "2 Cucharadas de Jugo MAGGI® BBQ"
+            }
         ],
-        "steps":[
-            "1.  Mezcla ¼ taza de Jugo MAGGI® BBQ, la cátsup y el pollo, cubre con plástico adherente y marina en refrigeración por 15 minutos.",
-            "2.  Calienta el aceite y fríe la preparación anterior hasta que el pollo dore ligeramente. Añade las tiras de pimiento, las calabazas, la sal con ajo y cocina por 3 minutos.",
-            "3.  Para formar los wraps, rellena las tortillas con la lechuga, un poco de la preparación anterior y cierra formando un cono; ofrece con el Jugo MAGGI® BBQ restante."
+        "steps": [
+            {
+                "id": 71,
+                "description": "Mezcla ¼ taza de Jugo MAGGI® BBQ, la cátsup y el pollo, cubre con plástico adherente y marina en refrigeración por 15 minutos."
+            },
+            {
+                "id": 72,
+                "description": "Calienta el aceite y fríe la preparación anterior hasta que el pollo dore ligeramente. Añade las tiras de pimiento, las calabazas, la sal con ajo y cocina por 3 minutos."
+            },
+            {
+                "id": 73,
+                "description": "Para formar los wraps, rellena las tortillas con la lechuga, un poco de la preparación anterior y cierra formando un cono; ofrece con el Jugo MAGGI® BBQ restante."
+            }
         ],
         "kcal": 357
-
     },
     {
         "id": 7,
         "category": "Lunch",
         "name": "Cuernito de ensalada rusa",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/lunch/cuernito-atun.png?raw=true",
+<<<<<<< HEAD
         "portions":8,
+=======
+        "portions": 8,
+>>>>>>> origin
         "cookingTime": 30,
         "utensils": [
-            "Cazo","Cuchara","Envoltura de plástico"
+            {
+                "id": 81,
+                "name": "Cazo"
+            },
+            {
+                "id": 82,
+                "name": "Cuchara"
+            },
+            {
+                "id": 83,
+                "name": "Envoltura de plástico"
+            }
         ],
         "ingredients": [
-            "1 Lata de media crema",
-            "1/2 Taza de Mayonesa",
-            "1 Cucharada de Chile chipotle adobado y molido",
-            "1 Cucharadita de Sal con cebolla en polvo",
-            "1/2 Taza de Chícharos cocidos",
-            "2 Zanahorias cortadas en cubos pequeños y cocidas",
-            "2 Papas cortadas en cubos pequeños y cocidas",
-            "4 Rebanadas gruesas de Jamón de pierna cortadas en cubos",
-            "8 Cuernitos cortados a la mitad",
-            "2 Aguacates cortados en rebanadas"
+            {
+                "id": 81,
+                "name": "1 Lata de media crema"
+            },
+            {
+                "id": 82,
+                "name": "1/2 Taza de Mayonesa"
+            },
+            {
+                "id": 83,
+                "name": "1 Cucharada de Chile chipotle adobado y molido"
+            },
+            {
+                "id": 84,
+                "name": "1 Cucharadita de Sal con cebolla en polvo"
+            },
+            {
+                "id": 85,
+                "name": "1/2 Taza de Chícharos cocidos"
+            },
+            {
+                "id": 86,
+                "name": "2 Zanahorias cortadas en cubos pequeños y cocidas"
+            },
+            {
+                "id": 87,
+                "name": "2 Papas cortadas en cubos pequeños y cocidas"
+            },
+            {
+                "id": 88,
+                "name": "4 Rebanadas gruesas de Jamón de pierna cortadas en cubos"
+            },
+            {
+                "id": 89,
+                "name": "8 Cuernitos cortados a la mitad"
+            },
+            {
+                "id": 90,
+                "name": "2 Aguacates cortados en rebanadas"
+            }
         ],
-        "steps":[
-            "1. Mezcla la media crema, la mayonesa, el chile chipotle y la sal con cebolla, agrega los chícharos, las zanahorias, las papas y el jamón hasta integrar por completo",
-            "2. Cubre con plástico adherente y refrigera por 20 minutos.",
-            "3.  Rellena los cuernitos con la ensalada y las rebanadas de aguacate. Ofrece."
+        "steps": [
+            {
+                "id": 81,
+                "description": "Mezcla la media crema, la mayonesa, el chile chipotle y la sal con cebolla, agrega los chícharos, las zanahorias, las papas y el jamón hasta integrar por completo"
+            },
+            {
+                "id": 82,
+                "description": "Cubre con plástico adherente y refrigera por 20 minutes."
+            },
+            {
+                "id": 83,
+                "description": "Rellena los cuernitos con la ensalada y las rebanadas de aguacate. Ofrece."
+            }
         ],
         "kcal": 397
-
     },
     {
         "id": 8,
         "category": "Lunch",
         "name": "Sandwich de vegetales",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/lunch/sandwich-vegetales.png?raw=true",
+<<<<<<< HEAD
         "portions":4,
+=======
+        "portions": 4,
+>>>>>>> origin
         "cookingTime": 17,
         "utensils": [
-            "Sartén","Cuchara de madera"
+            {
+                "id": 91,
+                "name": "Sartén"
+            },
+            {
+                "id": 92,
+                "name": "Cuchara de madera"
+            }
         ],
         "ingredients": [
-            "4 Rebanadas de Tocino",
-            "1/4 Cebolla picada finamente",
-            "1 Taza de Brócoli desinfectado y rallado",
-            "1 Taza de Zanahoria cortada en cubos pequeños",
-            "1 Cucharada de Jugo MAGGI®",
-            "1 Cucharada de salsa tipo inglesa",
-            "4 Huevos",
-            "8 Rebanadas de Pan de caja blanco sin orillas",
-            "3 Cucharadas de Mantequilla",
-            "1/2 Paquete de Queso tipo manchego rallado (100 g)",
-            "4 Rebanadas de Queso cheddar",
-            "4 Rebanadas de Jamón de pavo"
+            {
+                "id": 91,
+                "name": "4 Rebanadas de Tocino"
+            },
+            {
+                "id": 92,
+                "name": "1/4 Cebolla picada finamente"
+            },
+            {
+                "id": 93,
+                "name": "1 Taza de Brócoli desinfectado y rallado"
+            },
+            {
+                "id": 94,
+                "name": "1 Taza de Zanahoria cortada en cubos pequeños"
+            },
+            {
+                "id": 95,
+                "name": "1 Cucharada de Jugo MAGGI®"
+            },
+            {
+                "id": 96,
+                "name": "1 Cucharada de salsa tipo inglesa"
+            },
+            {
+                "id": 97,
+                "name": "4 Huevos"
+            },
+            {
+                "id": 98,
+                "name": "8 Rebanadas de Pan de caja blanco sin orillas"
+            },
+            {
+                "id": 99,
+                "name": "3 Cucharadas de Mantequilla"
+            },
+            {
+                "id": 100,
+                "name": "1/2 Paquete de Queso tipo manchego rallado (100 g)"
+            },
+            {
+                "id": 101,
+                "name": "4 Rebanadas de Queso cheddar"
+            },
+            {
+                "id": 102,
+                "name": "4 Rebanadas de Jamón de pavo"
+            }
         ],
-        "steps":[
-            "1.  En una sartén, fríe el tocino con la cebolla hasta que estén ligeramente dorados. Añade el brócoli, la zanahoria, el Jugo MAGGI®, la salsa tipo inglesa y cocina por 2 minutos. Coloca en un tazón y deja enfriar.",
-            "2.  Mezcla los huevos con la preparación anterior. Con ayuda de un cortador para galletas circular, retira el centro de cada rebanada de pan. Calienta un poco de mantequilla, coloca 1 rebanada de pan sin el centro, añade un poco de la mezcla de vegetales con huevo al centro del pan y cocina a fuego medio por ambos lados. Repite con el resto de los ingredientes.",
-            "3.  En una sartén caliente, forma el sándwich colocando una rebanada de pan, un poco de queso tipo manchego, una rebanada de queso cheddar, una de jamón y cubre con otra de pan, calienta por ambos lados hasta que se fundan los quesos. Repite el procedimiento, corta a la mitad y ofrece."
+        "steps": [
+            {
+                "id": 91,
+                "description": "En una sartén, fríe el tocino con la cebolla hasta que estén ligeramente dorados. Añade el brócoli, la zanahoria, el Jugo MAGGI®, la salsa tipo inglesa y cocina por 2 minutos. Coloca en un tazón y deja enfriar."
+            },
+            {
+                "id": 92,
+                "description": "Mezcla los huevos con la preparación anterior. Con ayuda de un cortador para galletas circular, retira el centro de cada rebanada de pan. Calienta un poco de mantequilla, coloca 1 rebanada de pan sin el centro, añade un poco de la mezcla de vegetales con huevo al centro del pan y cocina a fuego medio por ambos lados. Repite con el resto de los ingredientes."
+            },
+            {
+                "id": 93,
+                "description": "En una sartén caliente, forma el sándwich colocando una rebanada de pan, un poco de queso tipo manchego, una rebanada de queso cheddar, una de jamón y cubre con otra de pan, calienta por ambos lados hasta que se fundan los quesos. Repite el procedimiento, corta a la mitad y ofrece."
+            }
         ],
         "kcal": 578
-
     },
     {
         "id": 9,
@@ -269,101 +751,249 @@
         "portions": 4,
         "cookingTime": 12,
         "utensils": [
-            "Licuadora","Vaso"
+            {
+                "id": 111,
+                "name": "Licuadora"
+            },
+            {
+                "id": 112,
+                "name": "Vaso"
+            }
         ],
         "ingredients": [
-            "1 1/2 Tazas de fresas, congeladas",
-            "1 Taza de agua",
-            "1 Taza de hielo",
-            "5 Cucharadas de azúcar",
-            "1 Lata de leche condensada",
-            "4 Fresas, desinfectadas y cortadas en cuartos",
-            "4 Hojas de menta, desinfectadas"
+            {
+                "id": 111,
+                "name": "1 1/2 Tazas de fresas, congeladas"
+            },
+            {
+                "id": 112,
+                "name": "1 Taza de agua"
+            },
+            {
+                "id": 113,
+                "name": "1 Taza de hielo"
+            },
+            {
+                "id": 114,
+                "name": "5 Cucharadas de azúcar"
+            },
+            {
+                "id": 115,
+                "name": "1 Lata de leche condensada"
+            },
+            {
+                "id": 116,
+                "name": "4 Fresas, desinfectadas y cortadas en cuartos"
+            },
+            {
+                "id": 117,
+                "name": "4 Hojas de menta, desinfectadas"
+            }
         ],
-        "steps":[
-            "1.  Licúa las fresas con el agua, el hielo y el azúcar.",
-            "2.  Sirve en 4 vasos una capa de la mezcla de fresas, una capa de leche condensada, repite hasta terminar con un poco de leche condensada.",
-            "3.  Decora con las fresas y la menta. Ofrece."
+        "steps": [
+            {
+                "id": 111,
+                "description": "Licúa las fresas con el agua, el hielo y el azúcar."
+            },
+            {
+                "id": 112,
+                "description": "Sirve en 4 vasos una capa de la mezcla de fresas, una capa de leche condensada, repite hasta terminar con un poco de leche condensada."
+            },
+            {
+                "id": 113,
+                "description": "Decora con las fresas y la menta. Ofrece."
+            }
         ],
         "kcal": 162
-
     },
     {
         "id": 10,
         "category": "Bebida",
         "name": "Agua de plátano con coco",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/bebida/agua-platano-coco.png?raw=true",
+<<<<<<< HEAD
         "portions":4,
+=======
+        "portions": 4,
+>>>>>>> origin
         "cookingTime": 12,
         "utensils": [
-            "Licuadora","Vaso"
+            {
+                "id": 121,
+                "name": "Licuadora"
+            },
+            {
+                "id": 122,
+                "name": "Vaso"
+            }
         ],
         "ingredients": [
-            "4 Tazas de agua, fría",
-            "1/2 Taza de leche en polvo",
-            "1 Lata de leche condensada",
-            "2 Plátanos",
-            "1/2 Taza de coco, rallado",
-            "2 Tazas de hielo",
-            "1/4 Taza de coco en hojuelas y tostado"
+            {
+                "id": 121,
+                "name": "4 Tazas de agua, fría"
+            },
+            {
+                "id": 122,
+                "name": "1/2 Taza de leche en polvo"
+            },
+            {
+                "id": 123,
+                "name": "1 Lata de leche condensada"
+            },
+            {
+                "id": 124,
+                "name": "2 Plátanos"
+            },
+            {
+                "id": 125,
+                "name": "1/2 Taza de coco, rallado"
+            },
+            {
+                "id": 126,
+                "name": "2 Tazas de hielo"
+            },
+            {
+                "id": 127,
+                "name": "1/4 Taza de coco en hojuelas y tostado"
+            }
         ],
-        "steps":[
-            "1.  Licúa el agua con la leche en polvo, la leche condensada, los plátanos y 1/2 taza de coco.",
-            "2.  En una jarra, vierte lo que licuaste con los hielos y mezcla.",
-            "3.  Sirve en vasos, decora con el coco en hojuelas y ofrece."
+        "steps": [
+            {
+                "id": 121,
+                "description": "Licúa el agua con la leche en polvo, la leche condensada, los plátanos y 1/2 taza de coco."
+            },
+            {
+                "id": 122,
+                "description": "En una jarra, vierte lo que licuaste con los hielos y mezcla."
+            },
+            {
+                "id": 123,
+                "description": "Sirve en vasos, decora con el coco en hojuelas y ofrece."
+            }
         ],
         "kcal": 682
-
     },
     {
         "id": 11,
         "category": "Bebida",
         "name": "Mango-Coco boba tea",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/bebida/mango-coco.png?raw=true",
+<<<<<<< HEAD
         "portions":2,
+=======
+        "portions": 2,
+>>>>>>> origin
         "cookingTime": 15,
         "utensils": [
-            "Licuadora","Vaso"
+            {
+                "id": 131,
+                "name": "Licuadora"
+            },
+            {
+                "id": 132,
+                "name": "Vaso"
+            }
         ],
         "ingredients": [
-            "1 Mango (su pulpa)",
-            "1/4 Taza de Azúcar",
-            "1 1/2 Taza de leche de coco",
-            "1/2 Taza Tapioca",
-            "1 Taza de Hielos pequeños"
+            {
+                "id": 131,
+                "name": "1 Mango (su pulpa)"
+            },
+            {
+                "id": 132,
+                "name": "1/4 Taza de Azúcar"
+            },
+            {
+                "id": 133,
+                "name": "1 1/2 Taza de leche de coco"
+            },
+            {
+                "id": 134,
+                "name": "1/2 Taza Tapioca"
+            },
+            {
+                "id": 135,
+                "name": "1 Taza de Hielos pequeños"
+            }
         ],
-        "steps":[
-            "1.  Licúa el mango, el azúcar y 1/2 taza de leche de coco. Reserva.",
-            "2.  En un vaso alto, coloca las perlas de tapioca, encima hielo hasta llenar 3/4 del vaso.",
-            "3.  Con cuidado vierte la leche de coco sobre los hielos para evitar que se mezclen y con ayuda de una cuchara, coloca un poco del licuado de mango. Disfruta."
+        "steps": [
+            {
+                "id": 131,
+                "description": "Licúa el mango, el azúcar y 1/2 taza de leche de coco. Reserva."
+            },
+            {
+                "id": 132,
+                "description": "En un vaso alto, coloca las perlas de tapioca, encima hielo hasta llenar 3/4 del vaso."
+            },
+            {
+                "id": 133,
+                "description": "Con cuidado vierte la leche de coco sobre los hielos para evitar que se mezclen y con ayuda de una cuchara, coloca un poco del licuado de mango. Disfruta."
+            }
         ],
         "kcal": 357
-
     },
     {
         "id": 12,
         "category": "Bebida",
         "name": "Agua de melón",
         "image": "https://github.com/KarloPry/chef-list/blob/f76c445245c64a1c4a9d9c77a2906359d8d1eec2/assets/images/comida/bebida/agua-melon.png?raw=true",
+<<<<<<< HEAD
         "portions":6,
+=======
+        "portions": 6,
+>>>>>>> origin
         "cookingTime": 3,
         "utensils": [
-            "Licuadora","Vaso","Cuchara"
+            {
+                "id": 141,
+                "name": "Licuadora"
+            },
+            {
+                "id": 142,
+                "name": "Vaso"
+            },
+            {
+                "id": 143,
+                "name": "Cuchara"
+            }
         ],
         "ingredients": [
-            "1/2 Taza de leche en polvo",
-            "1 taza de leche condensada",
-            "500 Gramos de melón su pulpa",
-            "4 Tazas de agua",
-            "2 Tazas de hielo"
+            {
+                "id": 141,
+                "name": "1/2 Taza de leche en polvo"
+            },
+            {
+                "id": 142,
+                "name": "1 taza de leche condensada"
+            },
+            {
+                "id": 143,
+                "name": "500 Gramos de melón su pulpa"
+            },
+            {
+                "id": 144,
+                "name": "4 Tazas de agua"
+            },
+            {
+                "id": 145,
+                "name": "2 Tazas de hielo"
+            }
         ],
-        "steps":[
-            "1. Licúa la leche en polvo con la leche condensada, el melón y el agua.",
-            "2. Sirve el agua en una jarra con hielos.",
-            "3. Disfruta."
+        "steps": [
+            {
+                "id": 141,
+                "description": "Licúa la leche en polvo con la leche condensada, el melón y el agua."
+            },
+            {
+                "id": 142,
+                "description": "Sirve el agua en una jarra con hielos."
+            },
+            {
+                "id": 143,
+                "description": "Disfruta."
+            }
         ],
         "kcal": 180
-
     },
     {
         "id": 13,
@@ -373,23 +1003,64 @@
         "portions": 4,
         "cookingTime": 26,
         "utensils": [
-            "Licuadora","Cuchara","Olla","Cazo"
+            {
+                "id": 151,
+                "name": "Licuadora"
+            },
+            {
+                "id": 152,
+                "name": "Cuchara"
+            },
+            {
+                "id": 153,
+                "name": "Olla"
+            },
+            {
+                "id": 154,
+                "name": "Cazo"
+            }
         ],
         "ingredients": [
-            "1 Taza de agua",
-            "1 Lata de leche evaporada",
-            "2 Paquetes de queso crema (190 g c/u)",
-            "1 1/2 Cucharaditas de sal con cebolla en polvo",
-            "400 Gramos de pasta tipo fusilli cocida y escurrida",
-            "1/4 De taza de perejil desinfectado y picado"
+            {
+                "id": 151,
+                "name": "1 Taza de agua"
+            },
+            {
+                "id": 152,
+                "name": "1 Lata de leche evaporada"
+            },
+            {
+                "id": 153,
+                "name": "2 Paquetes de queso crema (190 g c/u)"
+            },
+            {
+                "id": 154,
+                "name": "1 1/2 Cucharaditas de sal con cebolla en polvo"
+            },
+            {
+                "id": 155,
+                "name": "400 Gramos de pasta tipo fusilli cocida y escurrida"
+            },
+            {
+                "id": 156,
+                "name": "1/4 De taza de perejil desinfectado y picado"
+            }
         ],
-        "steps":[
-            "1. Licúa la leche evaporada con el agua, el queso crema y la sal con cebolla en polvo",
-            "2. Cocina lo que licuaste a fuego bajo por 15 minutos o hasta que espese ligeramente, mueve constantemente para evitar que se pegue; retira del fuego.",
-            "3. Sirve la pasta caliente, baña con la salsa de queso y espolvorea con perejil picado. Ofrece."
+        "steps": [
+            {
+                "id": 151,
+                "description": "Licúa la leche evaporada con el agua, el queso crema y la sal con cebolla en polvo"
+            },
+            {
+                "id": 152,
+                "description": "Cocina lo que licuaste a fuego bajo por 15 minutos o hasta que espese ligeramente, mueve constantemente para evitar que se pegue; retira del fuego."
+            },
+            {
+                "id": 153,
+                "description": "Sirve la pasta caliente, baña con la salsa de queso y espolvorea con perejil picado. Ofrece."
+            }
         ],
         "kcal": 805
-
     },
     {
         "id": 14,
@@ -399,30 +1070,88 @@
         "portions": 4,
         "cookingTime": 28,
         "utensils": [
-            "Licuadora","Olla","Cazo"
+            {
+                "id": 161,
+                "name": "Licuadora"
+            },
+            {
+                "id": 162,
+                "name": "Olla"
+            },
+            {
+                "id": 163,
+                "name": "Cazo"
+            }
         ],
         "ingredients": [
-            "4 Jitomates cortados en cuartos",
-            "2 Chiles pasilla sin semillas y remojados en agua caliente",
-            "2 Chiles guajillo sin semillas y remojados en agua caliente",
-            "1 Chile ancho sin semillas y remojado en agua caliente",
-            "3 Dientes de Ajo",
-            "1/4 Pieza de Cebolla",
-            "2 Cubos de caldo de pollo",
-            "2 Cucharadas de aceite vegetal",
-            "1 Litro de Agua",
-            "1 Bolsa de Tiras de tortilla fritas (500 g)",
-            "1/2 Paquete de Queso panela rallado (100 g)",
-            "1 Aguacate cortado en cubos",
-            "1 Lata de media crema"
+            {
+                "id": 161,
+                "name": "4 Jitomates cortados en cuartos"
+            },
+            {
+                "id": 162,
+                "name": "2 Chiles pasilla sin semillas y remojados en agua caliente"
+            },
+            {
+                "id": 163,
+                "name": "2 Chiles guajillo sin semillas y remojados en agua caliente"
+            },
+            {
+                "id": 164,
+                "name": "1 Chile ancho sin semillas y remojado en agua caliente"
+            },
+            {
+                "id": 165,
+                "name": "3 Dientes de Ajo"
+            },
+            {
+                "id": 166,
+                "name": "1/4 Pieza de Cebolla"
+            },
+            {
+                "id": 167,
+                "name": "2 Cubos de caldo de pollo"
+            },
+            {
+                "id": 168,
+                "name": "2 Cucharadas de aceite vegetal"
+            },
+            {
+                "id": 169,
+                "name": "1 Litro de Agua"
+            },
+            {
+                "id": 170,
+                "name": "1 Bolsa de Tiras de tortilla fritas (500 g)"
+            },
+            {
+                "id": 171,
+                "name": "1/2 Paquete de Queso panela rallado (100 g)"
+            },
+            {
+                "id": 172,
+                "name": "1 Aguacate cortado en cubos"
+            },
+            {
+                "id": 173,
+                "name": "1 Lata de media crema"
+            }
         ],
-        "steps":[
-            "1.  Licúa los jitomates con los chiles, el ajo, la cebolla y el Concentrado de Tomate con Pollo CONSOMATE®; cuela y reserva.",
-            "2.  Calienta el aceite en una olla, agrega la preparación anterior y cocina hasta que cambie de color ligeramente, agrega el agua, mezcla y cocina por 10 minutos más.",
-            "3.  Sirve en un plato un poco de tiras de tortilla, baña con la sopa y decora con el queso, el aguacate y la media crema."
+        "steps": [
+            {
+                "id": 161,
+                "description": "Licúa los jitomates con los chiles, el ajo, la cebolla y el Concentrado de Tomate con Pollo CONSOMATE®; cuela y reserva."
+            },
+            {
+                "id": 162,
+                "description": "Calienta el aceite en una olla, agrega la preparación anterior y cocina hasta que cambie de color ligeramente, agrega el agua, mezcla y cocina por 10 minutos más."
+            },
+            {
+                "id": 163,
+                "description": "Sirve en un plato un poco de tiras de tortilla, baña con la sopa y decora con el queso, el aguacate y la media crema."
+            }
         ],
         "kcal": 480
-
     },
     {
         "id": 15,
@@ -432,26 +1161,76 @@
         "portions": 4,
         "cookingTime": 25,
         "utensils": [
-            "Sartén","Cuchara de madera","Olla","Cucharon"
+            {
+                "id": 181,
+                "name": "Sartén"
+            },
+            {
+                "id": 182,
+                "name": "Cuchara de madera"
+            },
+            {
+                "id": 183,
+                "name": "Olla"
+            },
+            {
+                "id": 184,
+                "name": "Cucharon"
+            }
         ],
         "ingredients": [
-            "2 Cucharadas de Aceite de cacahuate",
-            "1 Pimiento morrón rojo cortado en tiras",
-            "2 Tazas de Champiñones fileteados",
-            "1 Taza de Brócoli cortado en ramilletes y cocido",
-            "1/2 Cucharadita de Sal con cebolla en polvo",
-            "1 Paquete de Espagueti (200 g)",
-            "4 Cucharadas de salsa de soya",
-            "1 Cucharadita de Sal con ajo en polvo",
-            "4 Cucharadas de Ajonjolí tostado"
+            {
+                "id": 181,
+                "name": "2 Cucharadas de Aceite de cacahuate"
+            },
+            {
+                "id": 182,
+                "name": "1 Pimiento morrón rojo cortado in tiras"
+            },
+            {
+                "id": 183,
+                "name": "2 Tazas de Champiñones fileteados"
+            },
+            {
+                "id": 184,
+                "name": "1 Taza de Brócoli cortado en ramilletes y cocido"
+            },
+            {
+                "id": 185,
+                "name": "1/2 Cucharadita de Sal con cebolla en polvo"
+            },
+            {
+                "id": 186,
+                "name": "1 Paquete de Espagueti (200 g)"
+            },
+            {
+                "id": 187,
+                "name": "4 Cucharadas de salsa de soya"
+            },
+            {
+                "id": 188,
+                "name": "1 Cucharadita de Sal con ajo en polvo"
+            },
+            {
+                "id": 189,
+                "name": "4 Cucharadas de Ajonjolí tostado"
+            }
         ],
-        "steps":[
-            "1.  En una sartén, calienta el aceite de cacahuate, añade el pimiento, los champiñones, el brócoli y la sal con cebolla; cocina por 5 minutos.",
-            "2.  Agrega el espagueti cocido y escurrido, la Salsa de Soya MAGGI®, la sal con ajo, mezcla y decora con el ajonjolí.",
-            "3.  Ofrece."
+        "steps": [
+            {
+                "id": 181,
+                "description": "En una sartén, calienta el aceite de cacahuate, añade el pimiento, los champiñones, el brócoli y la sal con cebolla; cocina por 5 minutos."
+            },
+            {
+                "id": 182,
+                "description": "Agrega el espagueti cocido y escurrido, la Salsa de Soya MAGGI®, la sal con ajo, mezcla y decora con el ajonjolí."
+            },
+            {
+                "id": 183,
+                "description": "Ofrece."
+            }
         ],
         "kcal": 480
-
     },
     {
         "id": 16,
@@ -461,24 +1240,64 @@
         "portions": 4,
         "cookingTime": 25,
         "utensils": [
-            "Licuadora","Olla","Cuchara"
+            {
+                "id": 191,
+                "name": "Licuadora"
+            },
+            {
+                "id": 192,
+                "name": "Olla"
+            },
+            {
+                "id": 193,
+                "name": "Cuchara"
+            }
         ],
         "ingredients": [
-            "1 1/2 Litros de caldo de pollo",
-            "3 Jitomates en trozos",
-            "1 Diente de ajo",
-            "1/4 De pieza de cebolla en trozo",
-            "2 Cucharadas de aceite vegetal",
-            "1 Paquete de pasta de fideos (200 g)",
-            "2 Cubos de caldo de pollo"
+            {
+                "id": 191,
+                "name": "1 1/2 Litros de caldo de pollo"
+            },
+            {
+                "id": 192,
+                "name": "3 Jitomates en trozos"
+            },
+            {
+                "id": 193,
+                "name": "1 Diente de ajo"
+            },
+            {
+                "id": 194,
+                "name": "1/4 De pieza de cebolla en trozo"
+            },
+            {
+                "id": 195,
+                "name": "2 Cucharadas de aceite vegetal"
+            },
+            {
+                "id": 196,
+                "name": "1 Paquete de pasta de fideos (200 g)"
+            },
+            {
+                "id": 197,
+                "name": "2 Cubos de caldo de pollo"
+            }
         ],
-        "steps":[
-            "1.  Licúa la mitad del agua con los jitomates, el ajo y la cebolla; cuela.",
-            "2.  Calienta el aceite, fríe el fideo hasta que cambie de color y añade el resto del agua con lo que licuaste; tapa y cocina a fuego medio de 8 a 10 minutos o hasta que el fideo esté suave.",
-            "3.  Agrega los cubos de caldo de pollo, mezcla y cocina 2 minutos más. Ofrece."
+        "steps": [
+            {
+                "id": 191,
+                "description": "Licúa la mitad del agua con los jitomates, el ajo y la cebolla; cuela."
+            },
+            {
+                "id": 192,
+                "description": "Calienta el aceite, fríe el fideo hasta que cambie de color y añade el resto del agua con lo que licuaste; tapa y cocina a fuego medio de 8 a 10 minutos o hasta que el fideo esté suave."
+            },
+            {
+                "id": 193,
+                "description": "Agrega los cubos de caldo de pollo, mezcla y cocina 2 minutos más. Ofrece."
+            }
         ],
         "kcal": 168
-
     },
     {
         "id": 17,
@@ -488,19 +1307,36 @@
         "portions": 4,
         "cookingTime": 12,
         "utensils": [
-            "Vaso"
+            {
+                "id": 201,
+                "name": "Vaso"
+            }
         ],
         "ingredients": [
-            "2 1/2 Tazas de Uvas verdes desinfectadas",
-            "Dulce de Leche, al gusto",
-            "1/2 Taza de Cacahuates sin sal picados"
+            {
+                "id": 201,
+                "name": "2 1/2 Tazas de Uvas verdes desinfectadas"
+            },
+            {
+                "id": 202,
+                "name": "Dulce de Leche, al gusto"
+            },
+            {
+                "id": 203,
+                "name": "1/2 Taza de Cacahuates sin sal picados"
+            }
         ],
-        "steps":[
-            "1. Sirve las uvas en una copa",
-            "2. Agrega un poco de dulce de leche y cacahuates picados."
+        "steps": [
+            {
+                "id": 201,
+                "description": "Sirve las uvas en una copa"
+            },
+            {
+                "id": 202,
+                "description": "Agrega un poco de dulce de leche y cacahuates picados."
+            }
         ],
         "kcal": 268
-
     },
     {
         "id": 18,
@@ -510,22 +1346,52 @@
         "portions": 36,
         "cookingTime": 12,
         "utensils": [
-            "Sartén","Cuchara"
+            {
+                "id": 211,
+                "name": "Sartén"
+            },
+            {
+                "id": 212,
+                "name": "Cuchara"
+            }
         ],
         "ingredients": [
-            "1/2 Taza salsa tipo inglesa",
-            "18 Rodajas Pan de caja cortado a la mitad, tostado",
-            "1 Paquete Queso crema 190 g",
-            "270 Gramos Jitomate cherry",
-            "2 Cucharadas Hierbas finas"
+            {
+                "id": 211,
+                "name": "1/2 Taza salsa tipo inglesa"
+            },
+            {
+                "id": 212,
+                "name": "18 Rodajas Pan de caja cortado a la mitad, tostado"
+            },
+            {
+                "id": 213,
+                "name": "1 Paquete Queso crema 190 g"
+            },
+            {
+                "id": 214,
+                "name": "270 Gramos Jitomate cherry"
+            },
+            {
+                "id": 215,
+                "name": "2 Cucharadas Hierbas finas"
+            }
         ],
-        "steps":[
-            "1.  En una sartén calienta la salsa tipo inglesa a fuego medio durante 5 minutos o hasta que espese un poco; reserva.",
-            "2.  Unta las piezas de pan tostado con un poco de queso crema, coloca un cuarto de jitomate cherry y decora con una gota de la salsa tipo inglesa que reservaste.",
-            "3.  Espolvorea las hierbas finas sobre las tapas y sirve."
+        "steps": [
+            {
+                "id": 211,
+                "description": "En una sartén calienta la salsa tipo inglesa a fuego medio durante 5 minutos o hasta que espese un poco; reserva."
+            },
+            {
+                "id": 212,
+                "description": "Unta las piezas de pan tostado con un poco de queso crema, coloca un cuarto de jitomate cherry y decora con una gota de la salsa tipo inglesa que reservaste."
+            },
+            {
+                "id": 213,
+                "description": "Espolvorea las hierbas finas sobre las tapas y sirve."
+            }
         ],
         "kcal": 57
-
     },
     {
         "id": 19,
@@ -535,19 +1401,40 @@
         "portions": 4,
         "cookingTime": 5,
         "utensils": [
-            "Olla","Cucharon"
+            {
+                "id": 221,
+                "name": "Olla"
+            },
+            {
+                "id": 222,
+                "name": "Cucharon"
+            }
         ],
         "ingredients": [
-            "3 Cucharadas Sazonador Líquido MAGGI®",
-            "1/2 Taza Salsa de tomate",
-            "1 1/2 Pieza Chile chipotle molido",
-            "3 Cucharadas Refresco de naranja"
+            {
+                "id": 221,
+                "name": "3 Cucharadas Sazonador Líquido MAGGI®"
+            },
+            {
+                "id": 222,
+                "name": "1/2 Taza Salsa de tomate"
+            },
+            {
+                "id": 223,
+                "name": "1 1/2 Pieza Chile chipotle molido"
+            },
+            {
+                "id": 224,
+                "name": "3 Cucharadas Refresco de naranja"
+            }
         ],
-        "steps":[
-            "1. Mezcla el Sazonador Líquido MAGGI® con la salsa cátsup, el chipotle y el refresco de naranja."
+        "steps": [
+            {
+                "id": 221,
+                "description": "Mezcla el Sazonador Líquido MAGGI® con la salsa cátsup, el chipotle y el refresco de naranja."
+            }
         ],
         "kcal": 177
-
     },
     {
         "id": 20,
@@ -557,22 +1444,48 @@
         "portions": 4,
         "cookingTime": 38,
         "utensils": [
-            "Licuadora"
+            {
+                "id": 231,
+                "name": "Licuadora"
+            }
         ],
         "ingredients": [
-            "1 Lata de media crema",
-            "2 Cucharadas de Mayonesa",
-            "1 Cucharadita de Sal con ajo en polvo",
-            "1 Cucharadita de Cebolla en polvo",
-            "1 Bolsa de Papas fritas (270 g)"
+            {
+                "id": 231,
+                "name": "1 Lata de media crema"
+            },
+            {
+                "id": 232,
+                "name": "2 Cucharadas de Mayonesa"
+            },
+            {
+                "id": 233,
+                "name": "1 Cucharadita de Sal con ajo en polvo"
+            },
+            {
+                "id": 234,
+                "name": "1 Cucharadita de Cebolla en polvo"
+            },
+            {
+                "id": 235,
+                "name": "1 Bolsa de Papas fritas (270 g)"
+            }
         ],
-        "steps":[
-            "1.  Licúa la media crema con la mayonesa, la sal con ajo y la cebolla en polvo",
-            "2.  Refrigera por 30 minutos.",
-            "3.  Ofrece con papas fritas."
+        "steps": [
+            {
+                "id": 231,
+                "description": "Licúa la media crema con la mayonesa, la sal con ajo y la cebolla en polvo"
+            },
+            {
+                "id": 232,
+                "description": "Refrigera por 30 minutos."
+            },
+            {
+                "id": 233,
+                "description": "Ofrece con papas fritas."
+            }
         ],
         "kcal": 400
-
     },
     {
         "id": 21,
@@ -582,29 +1495,88 @@
         "portions": 4,
         "cookingTime": 27,
         "utensils": [
-            "Cazo","Cuchara","Sartén","Espátula"
+            {
+                "id": 241,
+                "name": "Cazo"
+            },
+            {
+                "id": 242,
+                "name": "Cuchara"
+            },
+            {
+                "id": 243,
+                "name": "Sartén"
+            },
+            {
+                "id": 244,
+                "name": "Espátula"
+            }
         ],
         "ingredients": [
-            "1/4 De cucharadita de sal",
-            "1/4 De cucharadita de pimienta negra molida",
-            "4 Filetes de pescado",
-            "1 Taza de harina de trigo pasada por un colador",
-            "2 Huevos batidos",
-            "1 Taza de pan molido",
-            "Aceite vegetal",
-            "3 Jitomates asados",
-            "1/4 De pieza de cebolla asada",
-            "1 Diente de ajo",
-            "1 Cubo de caldo de pollo",
-            "2 Ramas de cilantro desinfectado y picado finamente"
+            {
+                "id": 241,
+                "name": "1/4 De cucharadita de sal"
+            },
+            {
+                "id": 242,
+                "name": "1/4 De cucharadita de pimienta negra molida"
+            },
+            {
+                "id": 243,
+                "name": "4 Filetes de pescado"
+            },
+            {
+                "id": 244,
+                "name": "1 Taza de harina de trigo pasada por un colador"
+            },
+            {
+                "id": 245,
+                "name": "2 Huevos batidos"
+            },
+            {
+                "id": 246,
+                "name": "1 Taza de pan molido"
+            },
+            {
+                "id": 247,
+                "name": "Aceite vegetal"
+            },
+            {
+                "id": 248,
+                "name": "3 Jitomates asados"
+            },
+            {
+                "id": 249,
+                "name": "1/4 De pieza de cebolla asada"
+            },
+            {
+                "id": 250,
+                "name": "1 Diente de ajo"
+            },
+            {
+                "id": 251,
+                "name": "1 Cubo de caldo de pollo"
+            },
+            {
+                "id": 252,
+                "name": "2 Ramas de cilantro desinfectado y picado finamente"
+            }
         ],
-        "steps":[
-            "1. Mezcla la sal y la pimienta, espolvorea los filetes y cúbrelos con la harina, el huevo y por el pan molido. Calienta el aceite y fríelos por ambos lados, colócalos sobre papel absorbente para retirar el exceso de grasa.",
-            "2. Para la salsa, licúa los jitomates con la cebolla, el ajo y los cubos de caldo de pollo; agrega el cilantro y mezcla.",
-            "3. Acompaña los filetes con la salsa y ofrece."
+        "steps": [
+            {
+                "id": 241,
+                "description": "Mezcla la sal y la pimienta, espolvorea los filetes y cúbrelos con la harina, el huevo y por el pan molido. Calienta el aceite y fríelos por ambos lados, colócalos sobre papel absorbente para retirar el exceso de grasa."
+            },
+            {
+                "id": 242,
+                "description": "Para la salsa, licúa los jitomates con la cebolla, el ajo y los cubos de caldo de pollo; agrega el cilantro y mezcla."
+            },
+            {
+                "id": 243,
+                "description": "Acompaña los filetes con la salsa y ofrece."
+            }
         ],
         "kcal": 483
-
     },
     {
         "id": 22,
@@ -614,24 +1586,64 @@
         "portions": 4,
         "cookingTime": 25,
         "utensils": [
-            "Tabla de cortar","Espátula","Sartén"
+            {
+                "id": 261,
+                "name": "Tabla de cortar"
+            },
+            {
+                "id": 262,
+                "name": "Espátula"
+            },
+            {
+                "id": 263,
+                "name": "Sartén"
+            }
         ],
         "ingredients": [
-            "1 Pechuga de pollo cortada en 4 piezas a lo largo, sin hueso y sin piel (150 g c/u)",
-            "1/2 Cebolla fileteada",
-            "1 Papa cortada en cubos y cocida",
-            "1 Chile poblano cortado en rajas",
-            "Sazonador de ajo y cebolla",
-            "1 Envase de Media Crema"
+            {
+                "id": 261,
+                "name": "1 Pechuga de pollo cortada en 4 piezas a lo largo, sin hueso y sin piel (150 g c/u)"
+            },
+            {
+                "id": 262,
+                "name": "1/2 Cebolla fileteada"
+            },
+            {
+                "id": 263,
+                "name": "1 Papa cortada en cubos y cocida"
+            },
+            {
+                "id": 264,
+                "name": "1 Chile poblano cortado en rajas"
+            },
+            {
+                "id": 265,
+                "name": "Sazonador de ajo y cebolla"
+            },
+            {
+                "id": 266,
+                "name": "1 Envase de Media Crema"
+            }
         ],
-        "steps":[
-            "1. Realiza cortes sesgados sobre las pechugas sin llegar a la base, rellénalas con un poco de cebolla, papas y rajas.",
-            "2. Agregale a la pechiga de pollo un poco de sazonador de ajo y cebolla",
-            "3. Colócala en una sartén sin aceite, previamente precalentada a fuego bajo durante 1 minuto, tapa y asa a fuego bajo de 7 a 8 minutos por cada lado o hasta que esté bien cocida.",
-            "4. Repite el procedimiento con el resto de las pechugas. Antes de servir baña con media crema. Ofrece."
+        "steps": [
+            {
+                "id": 261,
+                "description": "Realiza cortes sesgados sobre las pechugas sin llegar a la base, rellénalas con un poco de cebolla, papas y rajas."
+            },
+            {
+                "id": 262,
+                "description": "Agrégale a la pechuga de pollo un poco de sazonador de ajo y cebolla."
+            },
+            {
+                "id": 263,
+                "description": "Colócala en una sartén sin aceite, previamente precalentada a fuego bajo durante 1 minuto, tapa y asa a fuego bajo de 7 a 8 minutos por cada lado o hasta que esté bien cocida."
+            },
+            {
+                "id": 264,
+                "description": "Repite el procedimiento con el resto de las pechugas. Antes de servir baña con media crema. Ofrece."
+            }
         ],
         "kcal": 334
-
     },
     {
         "id": 23,
@@ -641,37 +1653,136 @@
         "portions": 6,
         "cookingTime": 42,
         "utensils": [
-            "Olla","Bandeja de horno","Microondas","Cuchara","Envoltura de plástico","Horno","Sartén","Espátula"
+            {
+                "id": 271,
+                "name": "Olla"
+            },
+            {
+                "id": 272,
+                "name": "Bandeja de horno"
+            },
+            {
+                "id": 273,
+                "name": "Microondas"
+            },
+            {
+                "id": 274,
+                "name": "Cuchara"
+            },
+            {
+                "id": 275,
+                "name": "Envoltura de plástico"
+            },
+            {
+                "id": 276,
+                "name": "Horno"
+            },
+            {
+                "id": 277,
+                "name": "Sartén"
+            },
+            {
+                "id": 278,
+                "name": "Espátula"
+            }
         ],
         "ingredients": [
-            "10 Jitomates cortados en cuartos",
-            "3 Cucharadas de aceite de oliva",
-            "1/4 De pieza de cebolla cortada en trozos",
-            "2 Dientes de Ajo",
-            "1 Cubo de caldo de pollo",
-            "1/2 Cucharadita de sal con cebolla en polvo",
-            "1 Taza de agua",
-            "1 1/2 Cucharadas de finas hierbas",
-            "1/4 De cucharadita de pimienta negra molida",
-            "2 Cucharadas de aceite vegetal",
-            "1 Cucharada de cebolla picada finamente",
-            "1 Cucharadita de ajo picado finamente",
-            "600 Gramos de carne molida de res",
-            "1 Cucharada de sal con cebolla en polvo",
-            "1 Cucharada de Jugo MAGGI®",
-            "3 Cucharadas de salsa tipo inglesa",
-            "250 Gramos de champiñones rebanados",
-            "9 Láminas de pasta para lasaña precocida",
-            "200 Gramos de queso tipo manchego"
+            {
+                "id": 271,
+                "name": "10 Jitomates cortados en cuartos"
+            },
+            {
+                "id": 272,
+                "name": "3 Cucharadas de aceite de oliva"
+            },
+            {
+                "id": 273,
+                "name": "1/4 De pieza de cebolla cortada en trozos"
+            },
+            {
+                "id": 274,
+                "name": "2 Dientes de Ajo"
+            },
+            {
+                "id": 275,
+                "name": "1 Cubo de caldo de pollo"
+            },
+            {
+                "id": 276,
+                "name": "1/2 Cucharadita de sal con cebolla en polvo"
+            },
+            {
+                "id": 277,
+                "name": "1 Taza de agua"
+            },
+            {
+                "id": 278,
+                "name": "1 1/2 Cucharadas de finas hierbas"
+            },
+            {
+                "id": 279,
+                "name": "1/4 De cucharadita de pimienta negra molida"
+            },
+            {
+                "id": 280,
+                "name": "2 Cucharadas de aceite vegetal"
+            },
+            {
+                "id": 281,
+                "name": "1 Cucharada de cebolla picada finamente"
+            },
+            {
+                "id": 282,
+                "name": "1 Cucharadita de ajo picado finamente"
+            },
+            {
+                "id": 283,
+                "name": "600 Gramos de carne molida de res"
+            },
+            {
+                "id": 284,
+                "name": "1 Cucharada de sal con cebolla en polvo"
+            },
+            {
+                "id": 285,
+                "name": "1 Cucharada de Jugo MAGGI®"
+            },
+            {
+                "id": 286,
+                "name": "3 Cucharadas de salsa tipo inglesa"
+            },
+            {
+                "id": 287,
+                "name": "250 Gramos de champiñones rebanados"
+            },
+            {
+                "id": 288,
+                "name": "9 Láminas de pasta para lasaña precocida"
+            },
+            {
+                "id": 289,
+                "name": "200 Gramos de queso tipo manchego"
+            }
         ],
-        "steps":[
-            "1. Horno precalentado a 200 °C",
-            "2. Para la salsa, coloca los jitomates en una charola con el aceite de oliva, la cebolla y el ajo; hornea a 200 °C de 45 a 50 minutos o hasta que estén dorados. Licúa los jitomates, la cebolla y los ajos rostizados con el caldo de pollo la sal con cebolla, el agua, las hierbas finas y la pimienta.",
-            "3. Para el relleno, calienta el aceite y fríe la cebolla con el ajo hasta que cambien de color, añade la carne, la sal con cebolla, el Jugo MAGGI®, la salsa tipo inglesa y los champiñones; mezcla y cocina hasta que la carne esté cocida.",
-            "4. En un refractario engrasado con un poco de aceite, coloca una cucharada de salsa, una capa de láminas de lasaña precocida, una de relleno, una de salsa y queso rallado; repite el procedimiento hasta terminar con todos los ingredientes. Por último, termina con una capa de queso tipo manchego. Hornea a 200 °C de 20 a 25 minutos. Ofrece."
+        "steps": [
+            {
+                "id": 271,
+                "description": "Horno precalentado a 200 °C"
+            },
+            {
+                "id": 272,
+                "description": "Para la salsa, coloca los jitomates en una charola con el aceite de oliva, la cebolla y el ajo; hornea a 200 °C de 45 a 50 minutos o hasta que estén dorados. Licúa los jitomates, la cebolla y los ajos rostizados con el caldo de pollo la sal con cebolla, el agua, las hierbas finas y la pimienta."
+            },
+            {
+                "id": 273,
+                "description": "Para el relleno, calienta el aceite y fríe la cebolla con el ajo hasta que cambien de color, añade la carne, la sal con cebolla, el Jugo MAGGI®, la salsa tipo inglesa y los champiñones; mezcla y cocina hasta que la carne esté cocida."
+            },
+            {
+                "id": 274,
+                "description": "En un refractario engrasado con un poco de aceite, coloca una cucharada de salsa, una capa de láminas de lasaña precocida, una de relleno, una de salsa y queso rallado; repite el procedimiento hasta terminar con todos los ingredientes. Por último, termina con una capa de queso tipo manchego. Hornea a 200 °C de 20 a 25 minutos. Ofrece."
+            }
         ],
         "kcal": 348
-
     },
     {
         "id": 24,
@@ -681,27 +1792,76 @@
         "portions": 4,
         "cookingTime": 15,
         "utensils": [
-            "Cuchara","Licuadora","Olla"
+            {
+                "id": 1,
+                "name": "Cuchara"
+            },
+            {
+                "id": 2,
+                "name": "Licuadora"
+            },
+            {
+                "id": 3,
+                "name": "Olla"
+            }
         ],
         "ingredients": [
-            "1 Lata de leche evaporada",
-            "1 Lata de media crema",
-            "1 Paquete de queso crema reducido en grasa a temperatura ambiente (190 g)",
-            "1 Taza de agua",
-            "1 Cucharada de consomé de pollo en polvo",
-            "1 Cucharadita de sal con ajo en polvo",
-            "2 Chiles chipotle adobados",
-            "3/4 De taza de puré de tomate natural",
-            "4 Supremas de pechuga de pollo, cocidas y fritas",
-            "5 Ramas de perejil desinfectado y picado finamente"
+            {
+                "id": 1,
+                "name": "1 Lata de leche evaporada"
+            },
+            {
+                "id": 2,
+                "name": "1 Lata de media crema"
+            },
+            {
+                "id": 3,
+                "name": "1 Paquete de queso crema reducido en grasa a temperatura ambiente (190 g)"
+            },
+            {
+                "id": 4,
+                "name": "1 Taza de agua"
+            },
+            {
+                "id": 5,
+                "name": "1 Cucharada de consomé de pollo en polvo"
+            },
+            {
+                "id": 6,
+                "name": "1 Cucharadita de sal con ajo en polvo"
+            },
+            {
+                "id": 7,
+                "name": "2 Chiles chipotle adobados"
+            },
+            {
+                "id": 8,
+                "name": "3/4 De taza de puré de tomate natural"
+            },
+            {
+                "id": 9,
+                "name": "4 Supremas de pechuga de pollo, cocidas and fritas"
+            },
+            {
+                "id": 10,
+                "name": "5 Ramas de perejil desinfectado y picado finamente"
+            }
         ],
-        "steps":[
-            "1.  Licúa la leche evaporada, la media crema, el queso crema, el agua, el consomé de pollo, la sal con ajo y el chile chipotle.",
-            "2.  Calienta el puré de tomate hasta que cambie de color, agrega lo que licuaste y cocina hasta que espese ligeramente moviendo constantemente para evitar que se pegue.",
-            "3.  Sirve las supremas de pollo con la salsa y decora con el perejil. Ofrece."
+        "steps": [
+            {
+                "id": 1,
+                "description": "Licúa la leche evaporada, la media crema, el queso crema, el agua, el consomé de pollo, la sal con ajo y el chile chipotle."
+            },
+            {
+                "id": 2,
+                "description": "Calienta el puré de tomate hasta que cambie de color, agrega lo que licuaste y cocina hasta que espese ligeramente moviendo constantemente para evitar que se pegue."
+            },
+            {
+                "id": 3,
+                "description": "Sirve las supremas de pollo con la salsa y decora con el perejil."
+            }
         ],
         "kcal": 285
-
     },
     {
         "id": 25,
@@ -711,24 +1871,76 @@
         "portions": 12,
         "cookingTime": 162,
         "utensils": [
-            "Licuadora","Papel aluminio","Molde desmontable","Bandeja de horno","Horno","Refrigerador"
+            {
+                "id": 11,
+                "name": "Licuadora"
+            },
+            {
+                "id": 12,
+                "name": "Papel aluminio"
+            },
+            {
+                "id": 13,
+                "name": "Molde desmontable"
+            },
+            {
+                "id": 14,
+                "name": "Bandeja de horno"
+            },
+            {
+                "id": 15,
+                "name": "Horno"
+            },
+            {
+                "id": 16,
+                "name": "Refrigerador"
+            }
         ],
         "ingredients": [
-            "3/4 De taza de azúcar refinada",
-            "1 Lata de leche condensada",
-            "1 Lata de leche evaporada",
-            "1 Paquete de queso crema a temperatura ambiente (190 g)",
-            "5 Huevos",
-            "1 Cucharada de esencia de vainilla"
+            {
+                "id": 11,
+                "name": "3/4 De taza de azúcar refinada"
+            },
+            {
+                "id": 12,
+                "name": "1 Lata de leche condensada"
+            },
+            {
+                "id": 13,
+                "name": "1 Lata de leche evaporada"
+            },
+            {
+                "id": 14,
+                "name": "1 Paquete de queso crema a temperatura ambiente (190 g)"
+            },
+            {
+                "id": 15,
+                "name": "5 Huevos"
+            },
+            {
+                "id": 16,
+                "name": "1 Cucharada de esencia de vainilla"
+            }
         ],
-        "steps":[
-            "1.  Horno precalentado a 180 °C.",
-            "2.  Vierte el azúcar en una flanera y calienta a fuego medio para que se forme el caramelo; ladea con cuidado el molde para cubrir la superficie y las paredes.",
-            "3.  Licúa la leche condensada con la leche evaporada, el queso crema, los huevos y la esencia de vainilla. Vierte la preparación en la flanera y tapa con papel aluminio sellando las orillas. Coloca en un recipiente y cocina a baño María en el horno a 180 °C durante 1 1/2 horas.",
-            "4.  Retira del fuego y deja enfriar por completo; desmolda y sirve."
+        "steps": [
+            {
+                "id": 11,
+                "description": "Horno precalentado a 180 °C."
+            },
+            {
+                "id": 12,
+                "description": "Vierte el azúcar en una flanera y calienta a fuego medio para que se forme el caramelo; ladea con cuidado el molde para cubrir la superficie y las paredes."
+            },
+            {
+                "id": 13,
+                "description": "Licúa la leche condensada con la leche evaporada, el queso crema, los huevos y la esencia de vainilla. Vierte la preparación en la flanera y tapa con papel aluminio sellando las orillas. Coloca en un recipiente y cocina a baño María en el horno a 180 °C durante 1 1/2 hours."
+            },
+            {
+                "id": 14,
+                "description": "Retira del fuego and deja enfriar por completo; desmolda and sirve."
+            }
         ],
         "kcal": 265
-
     },
     {
         "id": 26,
@@ -738,26 +1950,76 @@
         "portions": 6,
         "cookingTime": 55,
         "utensils": [
-            "Cazo","Batidora","Horno","Bandeja de horno"
+            {
+                "id": 17,
+                "name": "Cazo"
+            },
+            {
+                "id": 18,
+                "name": "Batidora"
+            },
+            {
+                "id": 19,
+                "name": "Horno"
+            },
+            {
+                "id": 20,
+                "name": "Bandeja de horno"
+            }
         ],
         "ingredients": [
-            "1 Barra de Mantequilla fundida (90 g)",
-            "1/4 Taza de leche condensada",
-            "1 Huevo",
-            "3/4 Taza de chocolate para bebida caliente",
-            "2/3 Taza de Harina de trigo pasada por un colador",
-            "1/2 Cucharadita de Polvo para hornear",
-            "1/2 Taza de Frambuesas",
-            "1/4 Taza de Azúcar glass",
-            "6 Hojas de Menta fresca desinfectadas"
+            {
+                "id": 17,
+                "name": "1 Barra de Mantequilla fundida (90 g)"
+            },
+            {
+                "id": 18,
+                "name": "1/4 Taza de leche condensada"
+            },
+            {
+                "id": 19,
+                "name": "1 Huevo"
+            },
+            {
+                "id": 20,
+                "name": "3/4 Taza de chocolate para bebida caliente"
+            },
+            {
+                "id": 21,
+                "name": "2/3 Taza de Harina de trigo pasada por un colador"
+            },
+            {
+                "id": 22,
+                "name": "1/2 Cucharadita de Polvo para hornear"
+            },
+            {
+                "id": 23,
+                "name": "1/2 Taza de Frambuesas"
+            },
+            {
+                "id": 24,
+                "name": "1/4 Taza de Azúcar glass"
+            },
+            {
+                "id": 25,
+                "name": "6 Hojas de Menta fresca desinfectadas"
+            }
         ],
-        "steps":[
-            "1.  Horno precalentado a 180 °C.",
-            "2.  Mezcla la mantequilla con la leche condensada, el huevo, el polvo de chocolate para bebida caliente, la harina y el polvo para hornear hasta integrar por completo.",
-            "3.  Vierte en un molde cubierto con papel encerado y hornea a 180 °C de 25 a 30 minutos; deja enfriar. Desmolda, corta en cuadros, decora con las frambuesas, el azúcar glass y las hojas de menta. Ofrece."
+        "steps": [
+            {
+                "id": 17,
+                "description": "Horno precalentado a 180 °C."
+            },
+            {
+                "id": 18,
+                "description": "Mezcla la mantequilla con la leche condensada, el huevo, el polvo de chocolate para bebida caliente, la harina y el polvo para hornear hasta integrar por completo."
+            },
+            {
+                "id": 19,
+                "description": "Vierte en un molde cubierto con papel encerado and hornea a 180 °C de 25 a 30 minutes; deja enfriar. Desmolda, corta en cuadros, decora con las frambuesas, el azúcar glass and las hojas de menta. Ofrece."
+            }
         ],
         "kcal": 323
-
     },
     {
         "id": 27,
@@ -767,24 +2029,64 @@
         "portions": 12,
         "cookingTime": 128,
         "utensils": [
-            "Licuadora","Refrigerador","Cazo"
+            {
+                "id": 26,
+                "name": "Licuadora"
+            },
+            {
+                "id": 27,
+                "name": "Refrigerador"
+            },
+            {
+                "id": 28,
+                "name": "Cazo"
+            }
         ],
         "ingredients": [
-            "1 Lata de leche condensada",
-            "1 Lata de leche evaporada (1 1/2 tazas)",
-            "1 Lata de media crema",
-            "3 Tazas de agua",
-            "6 Mazapanes (28 g c/u)",
-            "3 Sobres de grenetina (7 g c/u), hidratados en 1/2 taza de agua y disuelta a baño María",
-            "1 Taza de fresas desinfectadas"
+            {
+                "id": 26,
+                "name": "1 Lata de leche condensada"
+            },
+            {
+                "id": 27,
+                "name": "1 Lata de leche evaporada (1 1/2 tazas)"
+            },
+            {
+                "id": 28,
+                "name": "1 Lata de media crema"
+            },
+            {
+                "id": 29,
+                "name": "3 Tazas de agua"
+            },
+            {
+                "id": 30,
+                "name": "6 Mazapanes (28 g c/u)"
+            },
+            {
+                "id": 31,
+                "name": "3 Sobres de grenetina (7 g c/u), hidratados en 1/2 taza de agua y disuelta a baño María"
+            },
+            {
+                "id": 32,
+                "name": "1 Taza de fresas desinfectadas"
+            }
         ],
-        "steps":[
-            "1.  Licúa la leche evaporada con la leche condensada, la media crema, el agua y 5 mazapanes; con la licuadora encendida agrega poco a poco la grenetina disuelta.",
-            "2.  Vierte lo que licuaste en un molde para gelatina engrasado, refrigera hasta que cuaje por completo.",
-            "3.  Desmolda, decora con el resto del mazapán y las fresas. Ofrece."
+        "steps": [
+            {
+                "id": 26,
+                "description": "Licúa la leche evaporada con la leche condensada, la media crema, el agua y 5 mazapanes; con la licuadora encendida agrega poco a poco la grenetina disuelta."
+            },
+            {
+                "id": 27,
+                "description": "Vierte lo que licuaste en un molde para gelatina engrasado, refrigera hasta que cuaje por completo."
+            },
+            {
+                "id": 28,
+                "description": "Desmolda, decora con el resto del mazapán y las fresas. Ofrece."
+            }
         ],
         "kcal": 230
-
     },
     {
         "id": 28,
@@ -794,29 +2096,95 @@
         "portions": 12,
         "cookingTime": 192,
         "utensils": [
-            "Olla","Refractario","Licuadora","Vaso medidor","Refrigerador"
+            {
+                "id": 29,
+                "name": "Olla"
+            },
+            {
+                "id": 30,
+                "name": "Refractario"
+            },
+            {
+                "id": 31,
+                "name": "Licuadora"
+            },
+            {
+                "id": 32,
+                "name": "Vaso medidor"
+            },
+            {
+                "id": 33,
+                "name": "Refrigerador"
+            }
         ],
         "ingredients": [
-            "1 Paquete de Gelatina sabor a uva (25 g)",
-            "1 Paquete de Gelatina sabor a fresa (25 g)",
-            "1 Paquete de Gelatina sabor a limón (25 g)",
-            "1 Paquete de Gelatina sabor a piña (25 g)",
-            "1 Lata de leche condensada",
-            "1 Lata de leche evaporada (1 1/2 tazas)",
-            "1 Lata de media crema",
-            "1 Cucharadita de Esencia de vainilla",
-            "4 Sobres de Grenetina (7 g c/u) hidratada en ½ taza de agua y disuelta a baño María",
-            "2 Fresas desinfectadas y cortadas a la mitad",
-            "1/2 Taza de Mango cortado en cubos",
-            "1 Limón cortado en rodajas",
-            "1 Ramita de Menta fresca desinfectada"
+            {
+                "id": 29,
+                "name": "1 Paquete de Gelatina sabor a uva (25 g)"
+            },
+            {
+                "id": 30,
+                "name": "1 Paquete de Gelatina sabor a fresa (25 g)"
+            },
+            {
+                "id": 31,
+                "name": "1 Paquete de Gelatina sabor a limón (25 g)"
+            },
+            {
+                "id": 32,
+                "name": "1 Paquete de Gelatina sabor a piña (25 g)"
+            },
+            {
+                "id": 33,
+                "name": "1 Lata de leche condensada"
+            },
+            {
+                "id": 34,
+                "name": "1 Lata de leche evaporada (1 1/2 tazas)"
+            },
+            {
+                "id": 35,
+                "name": "1 Lata de media crema"
+            },
+            {
+                "id": 36,
+                "name": "1 Cucharadita de Esencia de vainilla"
+            },
+            {
+                "id": 37,
+                "name": "4 Sobres de Grenetina (7 g c/u) hidratada en ½ taza de agua y disuelta a baño María"
+            },
+            {
+                "id": 38,
+                "name": "2 Fresas desinfectadas y cortadas a la mitad"
+            },
+            {
+                "id": 39,
+                "name": "1/2 Taza de Mango cortado en cubos"
+            },
+            {
+                "id": 40,
+                "name": "1 Limón cortado en rodajas"
+            },
+            {
+                "id": 41,
+                "name": "1 Ramita de Menta fresca desinfectada"
+            }
         ],
-        "steps":[
-            "1.  Prepara las gelatinas de sabor una por una con dos tazas menos de agua de lo que indica el empaque. Viértelas separadas en moldes rectangulares y refrigera hasta que cuajen. Córtalas en cubitos, combínalos y colócalos en un molde para gelatina engrasado.",
-            "2.  Licúa la leche condensada con la leche evaporada, la media crema y la esencia de vainilla; con la licuadora encendida agrega, poco a poco, la grenetina previamente disuelta.",
-            "3.  Vierte lo que licuaste al molde con las gelatinas de sabor y refrigera hasta que cuaje por completo; desmolda y decora con las fresas, el mango, las rodajas de limón y las hojas de menta. Ofrece."
+        "steps": [
+            {
+                "id": 29,
+                "description": "Prepara las gelatinas de sabor una por una con dos tazas menos de agua de lo que indica el empaque. Viértelas separadas en moldes rectangulares y refrigera hasta que cuajen. Córtalas en cubitos, combínalos y colócalos en un molde para gelatina engrasado."
+            },
+            {
+                "id": 30,
+                "description": "Licúa la leche condensada con la leche evaporada, la media crema y la esencia de vainilla; con la licuadora encendida agrega, poco a poco, la grenetina previamente disuelta."
+            },
+            {
+                "id": 31,
+                "description": "Vierte lo que licuaste al molde con las gelatinas de sabor y refrigera hasta que cuaje por completo; desmolda and decora con las fresas, el mango, las rodajas de limón and las hojas de menta. Ofrece."
+            }
         ],
         "kcal": 225
-
     }
 ]
