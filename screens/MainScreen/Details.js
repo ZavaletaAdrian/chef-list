@@ -1,16 +1,57 @@
-import React from "react";
+import React, { useState } from "react";
 import { ScrollView, View, Text, StyleSheet, Image } from "react-native";
 import GrayVerticalLine from "../../assets/svgs/GrayVerticalLine";
 import { LinearGradient } from "expo-linear-gradient";
 import CustomButton from "../../components/CustomButton";
 import BouncyCheckbox from "react-native-bouncy-checkbox";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function Details({ route, navigation }) {
   const recipe = route.params.recipe;
-  // console.log(recipe);
-  function handleSaveIngredients() {
-    console.log("Saved")
+  let savedIngredients = [];
+  const [saved, setSaved] = useState(false);
+  function handleCheckIngredient(ingredient) {
+    if (savedIngredients.includes(ingredient)) {
+      savedIngredients = savedIngredients.filter(
+        (savedIngredient) => savedIngredient !== ingredient
+      );
+    } else {
+      savedIngredients.push(ingredient);
+    }
+    console.log(savedIngredients);
   }
+  async function handleSaveIngredients() {
+    // Add name of the recipe and the ingredients
+    const recipeToSave = {
+      id: recipe.id,
+      name: recipe.name,
+      ingredients: savedIngredients,
+    };
+    try {
+      let previousRecipes = await AsyncStorage.getItem("Recetas");
+      //Add previous recipes
+      console.log(`Recetas previas: \n${previousRecipes}`)
+      previousRecipes = JSON.parse(previousRecipes);
+      previousRecipes.push(recipeToSave);
+      console.log(`Recetas nuevas: \n${savedIngredients}`)
+      //Save
+      await AsyncStorage.setItem("Recetas", JSON.stringify(previousRecipes));
+      console.log("Ingredientes:");
+      savedIngredients.forEach((ingredient) => console.log(ingredient.name));
+      console.log(savedIngredients);
+      setSaved(true);
+    } catch (error) {
+      console.log(error);
+      await AsyncStorage.setItem("Recetas", JSON.stringify([recipeToSave]));
+    } finally {
+      // console.log("Ingredientes:");
+      // savedIngredients.forEach((ingredient) => console.log(ingredient.name));
+      setSaved(true);
+      console.log("Recetas guardadas:");
+      console.log(await AsyncStorage.getItem("Recetas"));
+    }
+  }
+
   return (
     <ScrollView contentContainerStyle={styles.detailsContainer}>
       <View style={styles.foodName}>
@@ -80,21 +121,28 @@ export default function Details({ route, navigation }) {
         <Text style={{ fontSize: 20, fontWeight: "600", paddingVertical: 5 }}>
           Ingredientes
         </Text>
-        <View style={{gap: 5}}>
+        <View style={{ gap: 5 }}>
           {recipe.ingredients.map((ingredient) => (
             <BouncyCheckbox
               key={ingredient.id}
               text={ingredient.name}
               textStyle={{ color: "black" }}
+              onPress={() => handleCheckIngredient(ingredient)}
             />
           ))}
         </View>
-        <View style={{display: "flex", marginTop: 10, marginLeft: 120}}>
-          <CustomButton
-            text="Preparación"
-            color="#F28B0C"
-            action={handleSaveIngredients}
-          />
+        <View style={{ display: "flex", marginTop: 10, marginLeft: 120 }}>
+          {saved ? (
+            <View style={{ alignItems: "center" }}>
+              <Text style={{ fontSize: 18 }}>Guardado ✅</Text>
+            </View>
+          ) : (
+            <CustomButton
+              text="Guardar 🔖"
+              color="#F28B0C"
+              action={handleSaveIngredients}
+            />
+          )}
         </View>
       </LinearGradient>
       {/* Gradient color #FEFFCF */}

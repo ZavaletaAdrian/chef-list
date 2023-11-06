@@ -2,14 +2,24 @@ import React, {useEffect} from "react";
 import { ScrollView, StyleSheet } from "react-native";
 import NavBar from "../../components/NavBar";
 import FoodSection from "../../components/FoodSection";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function Home({navigation}) {
+  async function setList(){
+    try {
+      await AsyncStorage.getItem("Recetas");
+    } catch (error) {
+      await AsyncStorage.setItem("Recetas", JSON.stringify([]));
+    }
+  }
   const DATA = require("../../data/comida.json");
   useEffect(() => {
     navigation.setOptions({
       headerShown: false,
     });
+    setList();
   }, []);
+
   return (
     <>
       <NavBar />
