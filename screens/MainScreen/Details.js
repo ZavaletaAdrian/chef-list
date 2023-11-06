@@ -30,22 +30,16 @@ export default function Details({ route, navigation }) {
     try {
       let previousRecipes = await AsyncStorage.getItem("Recetas");
       //Add previous recipes
-      console.log(`Recetas previas: \n${previousRecipes}`)
       previousRecipes = JSON.parse(previousRecipes);
       previousRecipes.push(recipeToSave);
-      console.log(`Recetas nuevas: \n${savedIngredients}`)
       //Save
       await AsyncStorage.setItem("Recetas", JSON.stringify(previousRecipes));
-      console.log("Ingredientes:");
       savedIngredients.forEach((ingredient) => console.log(ingredient.name));
-      console.log(savedIngredients);
       setSaved(true);
     } catch (error) {
       console.log(error);
       await AsyncStorage.setItem("Recetas", JSON.stringify([recipeToSave]));
     } finally {
-      // console.log("Ingredientes:");
-      // savedIngredients.forEach((ingredient) => console.log(ingredient.name));
       setSaved(true);
       console.log("Recetas guardadas:");
       console.log(await AsyncStorage.getItem("Recetas"));

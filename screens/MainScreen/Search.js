@@ -1,21 +1,50 @@
-import React, {useEffect} from "react";
-import { View, Text, ScrollView } from "react-native";
+import React, { useEffect } from "react";
+import { ScrollView, Text, StyleSheet, View} from "react-native";
 import NavBar from "../../components/NavBar";
-import House from "../../assets/svgs/House";
-import LowerBar from "../../components/LowerBar";
+import SearchSection from "../../components/SearchSection";
 
-export default function Search({navigation}) {
-    useEffect(() => {
-        navigation.setOptions({
-          headerShown: false,
-        });
-      }, []);
-return (
+export default function Search({ navigation }) {
+  useEffect(() => {
+    navigation.setOptions({
+      headerShown: false,
+    });
+  }, []);
+  function handleSectionPress(name){
+    console.log(`Press! ${name}`)
+    navigation.navigate("SearchResults", {
+      name
+    })
+  }
+  return (
     <>
-    <NavBar />
-    <View>
-      <Text>Hi</Text>
-    </View>
+      <NavBar />
+      <ScrollView style={styles.mainContainer}>
+        <Text
+          style={styles.searchMainText}
+        >
+          Categorías 🔍
+        </Text>
+        <SearchSection name="Desayuno" action={handleSectionPress}/>
+        <SearchSection name="Lunch" action={handleSectionPress}/>
+        <SearchSection name="Bebidas" action={handleSectionPress}/>
+        <SearchSection name="Entradas" action={handleSectionPress}/>
+        <SearchSection name="Botanas" action={handleSectionPress}/>
+        <SearchSection name="Plato Fuerte" action={handleSectionPress}/>
+        <SearchSection name="Postres" action={handleSectionPress}/>
+        <View style={{height: 40}}></View>
+      </ScrollView>
     </>
   );
 }
+const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    paddingTop: 20,
+    paddingHorizontal: 20,
+  },
+  searchMainText: {
+    fontSize: 26,
+    fontWeight: "bold",
+    marginBottom: 20,
+  }
+});

@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     paddingHorizontal: 14,
     paddingVertical: 17,
+    alignItems: "center",
   },
   imageContainer: {
     width: 250,
@@ -75,5 +76,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    gap: 10,
   },
 });
