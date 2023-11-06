@@ -3,7 +3,7 @@ import { View, ScrollView, StyleSheet } from "react-native";
 import FoodCard from "../../components/FoodCard";
 
 export default function SearchResults({ route }) {
-  let { name } = route.params;
+  let  name  = route.params.name;
   name == "Botanas" ? name = "Botana" : {}
   name == "Bebidas" ? name = "Bebida" : {}
   name == "Entradas" ? name = "Entrada" : {}
