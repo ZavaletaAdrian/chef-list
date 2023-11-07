@@ -46,36 +46,38 @@ export default function RecipeList({ recipe, mainColor, softColor }) {
     setIsDeleted(true);
   }
 
-  return (
-    isDeleted == false ? (
-      <View style={styles.mainContainer}>
-        <Text style={styles.recipeText}>{recipe.name}</Text>
-        {recipe.ingredients.map((ingredient) => {
-          return (
-            <View key={ingredient.id}>
-              <BouncyCheckbox
-                text={ingredient.name}
-                fillColor={mainColor}
-                unfillColor="#FFFFFF"
-                iconStyle={{ borderColor: mainColor }}
-                textStyle={{ fontSize: 14 }}
-                onPress={() => handleCheckIngredient(ingredient)}
-                isChecked={ingredient.checked}
-                style={{ marginBottom: 10 }}
-              />
-            </View>
-          );
-        })}
-        {allChecked == true && (
+  return isDeleted == false ? (
+    <View style={styles.mainContainer}>
+      <Text style={styles.recipeText}>{recipe.name}</Text>
+      {recipe.ingredients.map((ingredient) => {
+        return (
+          <View key={ingredient.id}>
+            <BouncyCheckbox
+              text={ingredient.name}
+              fillColor={mainColor}
+              unfillColor="#FFFFFF"
+              iconStyle={{ borderColor: mainColor }}
+              textStyle={{ fontSize: 14 }}
+              onPress={() => handleCheckIngredient(ingredient)}
+              isChecked={ingredient.checked}
+              style={{ marginBottom: 10 }}
+            />
+          </View>
+        );
+      })}
+      {allChecked == true && (
+        <View style={{marginLeft: 160}}>
           <CustomButton
             color={"#FF3C00"}
             text="Borrar"
             action={() => handleDeleteButton(recipe)}
           />
-        )}
-      </View>
-    ) : (<View>
-        <Text>Receta borrada</Text>
-    </View>)
+        </View>
+      )}
+    </View>
+  ) : (
+    <View>
+      <Text>Receta borrada</Text>
+    </View>
   );
 }

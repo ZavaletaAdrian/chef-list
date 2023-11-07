@@ -41,6 +41,9 @@ export default function Details({ route, navigation }) {
     console.log(savedIngredients);
   }
   async function handleSaveIngredients() {
+    if (savedIngredients.length === 0) {
+      return;
+    }
     // Add name of the recipe and the ingredients
     const recipeToSave = {
       id: recipe.id,
