@@ -64,7 +64,7 @@ export default function Main({ navigation }) {
 const styles = StyleSheet.create({
   lowerbar: {
     display: "inline-flex",
-    height: 70,
+    height: 60,
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
