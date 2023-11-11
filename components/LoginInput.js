@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, TextInput, StyleSheet } from "react-native";
-export default function LoginInput({ name, placeholder, type }) {
+export default function LoginInput({ name, placeholder, type, onChangeText }) {
   return (
     <>
       <Text style={styles.name_input}>{name}</Text>
@@ -8,6 +8,7 @@ export default function LoginInput({ name, placeholder, type }) {
         style={styles.input_login}
         placeholder={placeholder}
         secureTextEntry = {type === "password" ? true : false}
+        onChangeText={onChangeText}
       ></TextInput>
     </>
   );
