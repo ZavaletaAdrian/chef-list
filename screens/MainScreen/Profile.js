@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { View, Text, Image, TouchableOpacity, StyleSheet, TextInput, ScrollView} from "react-native";
 import * as ImagePicker from 'expo-image-picker';
-import FoodSection from "../../components/FoodSection";
+import FoodCard from "../../components/FoodCard";
 
 import NavBar from "../../components/NavBar";
 
@@ -70,7 +70,7 @@ export default function Profile({ navigation }) {
         <Text style={styles.text}>Platillo favorito:</Text>
         
         {/* Muestra de como se vería, se cambiará después para solo mostrar uno */}
-        <FoodSection style={styles.platillo} recipes={DATA} /> 
+        <FoodCard style={styles.platillo} recipe={DATA[1]} /> 
 
         <Text style={styles.text}>Contraseña:</Text>
 
