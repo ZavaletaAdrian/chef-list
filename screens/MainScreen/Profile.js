@@ -23,6 +23,7 @@ export default function Profile({ navigation }) {
         return;
       }
 
+    {/*bvkdbvks */}
       const result = await ImagePicker.launchImageLibraryAsync({
         mediaTypes: ImagePicker.MediaTypeOptions.Images,
         allowsEditing: true,
